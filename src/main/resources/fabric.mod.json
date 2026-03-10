@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/josevictorbdbr",
 		"sources": "https://github.com/josevictorbdbr/woo-mod-1.21"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/world-of-ores/icon.png",
 	"environment": "*",
 	"entrypoints": {
