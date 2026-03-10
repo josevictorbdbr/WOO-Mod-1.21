@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "world-of-ores",
+	"version": "${version}",
+	"name": "World of Ores",
+	"description": "A mod that add some ores to Minecraft",
+	"authors": [
+		"José Victor"
+	],
+	"contact": {
+		"homepage": "https://github.com/josevictorbdbr",
+		"sources": "https://github.com/josevictorbdbr/woo-mod-1.21"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/world-of-ores/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"josev.woo.WorldOfOres"
+		],
+		"fabric-datagen": [
+			"josev.woo.WorldOfOresDataGenerator"
+		],
+		"client": [
+			"josev.woo.WOOClient"
+		]
+	},
+	"mixins": [
+		"world-of-ores.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
