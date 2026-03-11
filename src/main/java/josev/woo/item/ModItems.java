@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
+    public static final Item MALACHITE = registerItem("malachite", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WorldOfOres.MOD_ID, name), item);
@@ -21,6 +22,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(ModItems.RUBY);
+            entries.add(ModItems.MALACHITE);
         });
     }
 
