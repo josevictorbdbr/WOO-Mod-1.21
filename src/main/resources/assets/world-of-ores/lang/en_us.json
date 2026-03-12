@@ -1,4 +1,7 @@
 {
   "item.world-of-ores.ruby": "Ruby",
-  "item.world-of-ores.malachite": "Malachite"
+  "item.world-of-ores.malachite": "Malachite",
+
+  "block.world-of-ores.ruby_block": "Ruby Block",
+  "block.world-of-ores.malachite_block": "Malachite Block"
 }
