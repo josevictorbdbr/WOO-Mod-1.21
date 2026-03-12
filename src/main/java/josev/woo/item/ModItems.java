@@ -18,7 +18,7 @@ public class ModItems {
     }
 
     public static void registerModItems(){
-        WorldOfOres.LOGGER.info("Registering ModItems" + WorldOfOres.MOD_ID);
+        WorldOfOres.LOGGER.info("Registering Mod Items" + WorldOfOres.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(ModItems.RUBY);

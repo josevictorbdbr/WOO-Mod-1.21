@@ -1,5 +1,6 @@
 package josev.woo;
 
+import josev.woo.block.ModBlocks;
 import josev.woo.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class WorldOfOres implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
