@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModItems.MALACHITE);
                         entries.add(ModBlocks.MALACHITE_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
