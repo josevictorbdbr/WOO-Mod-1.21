@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "ruby",
+  "ingredient": {
+    "item": "world-of-ores:ruby_ore_block"
+  },
+  "result": {
+    "id": "world-of-ores:ruby"
+  }
+}
