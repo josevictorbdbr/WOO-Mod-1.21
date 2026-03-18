@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MALACHITE_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE_BLOCK);
                         entries.add(ModBlocks.MALACHITE_ORE_BLOCK);
+                        entries.add(ModItems.URANIUM);
                     }).build());
 
     public static void registerItemGroups() {
