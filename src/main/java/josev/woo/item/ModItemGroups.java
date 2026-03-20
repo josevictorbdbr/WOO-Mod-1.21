@@ -16,10 +16,11 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
                         entries.add(ModItems.MALACHITE);
                         entries.add(ModBlocks.MALACHITE_BLOCK);
-                        entries.add(ModBlocks.RUBY_ORE_BLOCK);
-                        entries.add(ModBlocks.MALACHITE_ORE_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.MALACHITE_ORE);
                         entries.add(ModItems.URANIUM);
                     }).build());
 

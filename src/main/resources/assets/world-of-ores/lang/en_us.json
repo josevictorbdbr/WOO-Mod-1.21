@@ -4,9 +4,10 @@
   "item.world-of-ores.uranium": "Uranium",
 
   "block.world-of-ores.ruby_block": "Ruby Block",
-  "block.world-of-ores.ruby_ore_block": "Ruby Ore Block",
+  "block.world-of-ores.ruby_ore": "Ruby Ore",
+  "block.world-of-ores.ruby_deepslate_ore": "Ruby Deepslate Ore",
   "block.world-of-ores.malachite_block": "Malachite Block",
-  "block.world-of-ores.malachite_ore_block": "Malachite Ore Block",
+  "block.world-of-ores.malachite_ore": "Malachite Ore",
 
   "itemgroup.world-of-ores.itens": "World of Ores"
 }

@@ -16,12 +16,16 @@ public class ModBlocks {
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
-    public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_ore_block",
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block RUBY_DEEPSLATE_ORE = registerBlock("ruby_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
     public static final Block MALACHITE_BLOCK = registerBlock("malachite_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
-    public static final Block MALACHITE_ORE_BLOCK = registerBlock("malachite_ore_block",
+    public static final Block MALACHITE_ORE = registerBlock("malachite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.STONE)));
 

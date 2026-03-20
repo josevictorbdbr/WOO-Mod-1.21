@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "world-of-ores:block/ruby_ore_block"
-  }
-}
