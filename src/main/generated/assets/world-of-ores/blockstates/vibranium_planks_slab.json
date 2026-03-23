@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "world-of-ores:block/vibranium_planks_slab"
+    },
+    "type=double": {
+      "model": "world-of-ores:block/vibranium_planks"
+    },
+    "type=top": {
+      "model": "world-of-ores:block/vibranium_planks_slab_top"
+    }
+  }
+}

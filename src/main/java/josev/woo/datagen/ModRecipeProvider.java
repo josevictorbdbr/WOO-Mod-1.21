@@ -7,7 +7,10 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -36,21 +39,56 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> MALACHITE_SMELTABLE = List.of(ModBlocks.MALACHITE_ORE);
         offerSmelting(exporter, MALACHITE_SMELTABLE, RecipeCategory.MISC, ModItems.MALACHITE, 0.25f, 200, "malachite");
         offerBlasting(exporter, MALACHITE_SMELTABLE, RecipeCategory.MISC, ModItems.MALACHITE, 0.25f, 100, "malachite");
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MALACHITE_BLOCK)
-                .pattern("RRR")
-                .pattern("RRR")
-                .pattern("RRR")
-                .input('R', ModItems.MALACHITE)
-                .criterion(hasItem(ModItems.MALACHITE), conditionsFromItem(ModItems.MALACHITE))
-                .offerTo(exporter);
-
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MALACHITE, 9)
-                .input(ModBlocks.MALACHITE_BLOCK)
-                .criterion(hasItem(ModBlocks.MALACHITE_BLOCK), conditionsFromItem(ModBlocks.MALACHITE_BLOCK))
-                .offerTo(exporter);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MALACHITE, RecipeCategory.DECORATIONS, ModBlocks.MALACHITE_BLOCK);
 
         //Vibranium
-
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANIUM_PLANKS_SLAB, 6)
+                .pattern("RRR")
+                .input('R', ModBlocks.VIBRANIUM_PLANKS)
+                .criterion(hasItem(ModBlocks.VIBRANIUM_PLANKS), conditionsFromItem(ModBlocks.VIBRANIUM_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANIUM_PLANKS_STAIRS, 4)
+                .pattern("R  ")
+                .pattern("RR ")
+                .pattern("RRR")
+                .input('R', ModBlocks.VIBRANIUM_PLANKS)
+                .criterion(hasItem(ModBlocks.VIBRANIUM_PLANKS), conditionsFromItem(ModBlocks.VIBRANIUM_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANIUM_PLANKS_FENCE, 3)
+                .pattern("RSR")
+                .pattern("RSR")
+                .input('R', ModBlocks.VIBRANIUM_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.VIBRANIUM_PLANKS), conditionsFromItem(ModBlocks.VIBRANIUM_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANIUM_PLANKS_FENCE_GATE)
+                .pattern("SRS")
+                .pattern("SRS")
+                .input('R', ModBlocks.VIBRANIUM_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.VIBRANIUM_PLANKS), conditionsFromItem(ModBlocks.VIBRANIUM_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANIUM_PLANKS_DOOR, 3)
+                .pattern("RR ")
+                .pattern("RR ")
+                .pattern("RR ")
+                .input('R', ModBlocks.VIBRANIUM_PLANKS)
+                .criterion(hasItem(ModBlocks.VIBRANIUM_PLANKS), conditionsFromItem(ModBlocks.VIBRANIUM_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR, 2)
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModBlocks.VIBRANIUM_PLANKS)
+                .criterion(hasItem(ModBlocks.VIBRANIUM_PLANKS), conditionsFromItem(ModBlocks.VIBRANIUM_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE)
+                .pattern("RR ")
+                .input('R', ModBlocks.VIBRANIUM_PLANKS)
+                .criterion(hasItem(ModBlocks.VIBRANIUM_PLANKS), conditionsFromItem(ModBlocks.VIBRANIUM_PLANKS))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANIUM_PLANKS_BUTTON)
+                .input(ModBlocks.VIBRANIUM_PLANKS)
+                .criterion(hasItem(ModBlocks.VIBRANIUM_PLANKS), conditionsFromItem(ModBlocks.VIBRANIUM_PLANKS))
+                .offerTo(exporter);
     }
 }
