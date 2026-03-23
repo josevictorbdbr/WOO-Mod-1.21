@@ -9,5 +9,15 @@
   "block.world-of-ores.malachite_block": "Malachite Block",
   "block.world-of-ores.malachite_ore": "Malachite Ore",
 
+  "block.world-of-ores.vibranium_planks": "Vibranium Planks",
+  "block.world-of-ores.vibranium_planks_stairs": "Vibranium Planks Stairs",
+  "block.world-of-ores.vibranium_planks_slab": "Vibranium Planks Slab",
+  "block.world-of-ores.vibranium_planks_fence": "Vibranium Planks Fence",
+  "block.world-of-ores.vibranium_planks_fence_gate": "Vibranium Planks Fence Gate",
+  "block.world-of-ores.vibranium_planks_door": "Vibranium Planks Door",
+  "block.world-of-ores.vibranium_planks_trapdoor": "Vibranium Planks trapdoor",
+  "block.world-of-ores.vibranium_planks_button": "Vibranium Planks button",
+  "block.world-of-ores.vibranium_planks_pressure_plate": "Vibranium Planks Pressure Plate",
+
   "itemgroup.world-of-ores.itens": "World of Ores"
 }

@@ -22,6 +22,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.MALACHITE_ORE);
                         entries.add(ModItems.URANIUM);
+                        entries.add(ModBlocks.VIBRANIUM_PLANKS);
+                        entries.add(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
+                        entries.add(ModBlocks.VIBRANIUM_PLANKS_SLAB);
+                        entries.add(ModBlocks.VIBRANIUM_PLANKS_FENCE);
+                        entries.add(ModBlocks.VIBRANIUM_PLANKS_FENCE_GATE);
+                        entries.add(ModBlocks.VIBRANIUM_PLANKS_DOOR);
+                        entries.add(ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR);
+                        entries.add(ModBlocks.VIBRANIUM_PLANKS_BUTTON);
+                        entries.add(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
                     }).build());
 
     public static void registerItemGroups() {

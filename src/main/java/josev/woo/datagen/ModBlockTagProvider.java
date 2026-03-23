@@ -36,5 +36,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MALACHITE_BLOCK)
                 .add(ModBlocks.MALACHITE_ORE);
 
+        //Axe Tags
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.VIBRANIUM_PLANKS)
+                .add(ModBlocks.VIBRANIUM_PLANKS_STAIRS)
+                .add(ModBlocks.VIBRANIUM_PLANKS_SLAB)
+                .add(ModBlocks.VIBRANIUM_PLANKS_FENCE)
+                .add(ModBlocks.VIBRANIUM_PLANKS_FENCE_GATE)
+                .add(ModBlocks.VIBRANIUM_PLANKS_DOOR)
+                .add(ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR)
+                .add(ModBlocks.VIBRANIUM_PLANKS_BUTTON)
+                .add(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(ModBlocks.VIBRANIUM_PLANKS_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.VIBRANIUM_PLANKS_FENCE_GATE);
+
     }
 }

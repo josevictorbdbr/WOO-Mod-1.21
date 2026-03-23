@@ -20,6 +20,17 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_ORE);
+        BlockStateModelGenerator.BlockTexturePool VibraniumPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VIBRANIUM_PLANKS);
+
+        VibraniumPlanksPool.stairs(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
+        VibraniumPlanksPool.slab(ModBlocks.VIBRANIUM_PLANKS_SLAB);
+        VibraniumPlanksPool.fence(ModBlocks.VIBRANIUM_PLANKS_FENCE);
+        VibraniumPlanksPool.fenceGate(ModBlocks.VIBRANIUM_PLANKS_FENCE_GATE);
+        VibraniumPlanksPool.button(ModBlocks.VIBRANIUM_PLANKS_BUTTON);
+        VibraniumPlanksPool.pressurePlate(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.VIBRANIUM_PLANKS_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR);
     }
 
     @Override

@@ -26,13 +26,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+
         //Drops itself
         addDrop(ModBlocks.RUBY_BLOCK);
         addDrop(ModBlocks.MALACHITE_BLOCK);
+
+        addDrop(ModBlocks.VIBRANIUM_PLANKS);
+        addDrop(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
+        addDrop(ModBlocks.VIBRANIUM_PLANKS_SLAB, slabDrops(ModBlocks.VIBRANIUM_PLANKS_SLAB));
+        addDrop(ModBlocks.VIBRANIUM_PLANKS_FENCE);
+        addDrop(ModBlocks.VIBRANIUM_PLANKS_FENCE_GATE);
+        addDrop(ModBlocks.VIBRANIUM_PLANKS_DOOR, doorDrops(ModBlocks.VIBRANIUM_PLANKS_DOOR));
+        addDrop(ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR);
+        addDrop(ModBlocks.VIBRANIUM_PLANKS_BUTTON);
+        addDrop(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
+
         //Ores like
         addDrop(ModBlocks.RUBY_ORE, multipleOreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY, 1, 2));
         addDrop(ModBlocks.RUBY_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.RUBY_DEEPSLATE_ORE, ModItems.RUBY, 1, 2));
         addDrop(ModBlocks.MALACHITE_ORE, multipleOreDrops(ModBlocks.MALACHITE_ORE, ModItems.MALACHITE, 2, 3));
+
     }
 
 
