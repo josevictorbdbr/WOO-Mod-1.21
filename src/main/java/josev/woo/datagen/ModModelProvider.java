@@ -1,12 +1,12 @@
 package josev.woo.datagen;
 
 import josev.woo.block.ModBlocks;
+import josev.woo.block.custom.OrpimentLampBlock;
 import josev.woo.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -31,6 +31,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.VIBRANIUM_PLANKS_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR);
+
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.ORPIMENT_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.ORPIMENT_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.ORPIMENT_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(OrpimentLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
     }
 
     @Override

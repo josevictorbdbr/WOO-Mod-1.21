@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.MALACHITE_ORE);
                         entries.add(ModItems.URANIUM);
+                        entries.add(ModBlocks.ORPIMENT_LAMP);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_SLAB);

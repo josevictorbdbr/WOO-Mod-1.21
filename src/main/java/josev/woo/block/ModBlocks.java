@@ -1,6 +1,7 @@
 package josev.woo.block;
 
 import josev.woo.WorldOfOres;
+import josev.woo.block.custom.OrpimentLampBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -29,6 +30,11 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    //ORPIMENT
+    public static final Block ORPIMENT_LAMP = registerBlock("orpiment_lamp",
+            new OrpimentLampBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()
+                    .luminance(state -> state.get(OrpimentLampBlock.CLICKED) ? 15 : 0).sounds(BlockSoundGroup.GLASS)));
+
     //VIBRANIUM PLANKS
     public static final Block VIBRANIUM_PLANKS = registerBlock("vibranium_planks",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
@@ -38,7 +44,6 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
     public static final Block VIBRANIUM_PLANKS_SLAB = registerBlock("vibranium_planks_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(4f).requiresTool()));
-
     public static final Block VIBRANIUM_PLANKS_FENCE = registerBlock("vibranium_planks_fence",
             new FenceBlock(AbstractBlock.Settings.create().strength(4f).requiresTool()));
     public static final Block VIBRANIUM_PLANKS_FENCE_GATE = registerBlock("vibranium_planks_fence_gate",
@@ -47,7 +52,6 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block VIBRANIUM_PLANKS_TRAPDOOR = registerBlock("vibranium_planks_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
-
     public static final Block VIBRANIUM_PLANKS_BUTTON = registerBlock("vibranium_planks_button",
             new ButtonBlock(BlockSetType.OAK, 2,
                     AbstractBlock.Settings.create().strength(4f).requiresTool().noCollision()));

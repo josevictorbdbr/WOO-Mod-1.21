@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "world-of-ores:block/orpiment_lamp_on"
+  }
+}

@@ -30,7 +30,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         //Drops itself
         addDrop(ModBlocks.RUBY_BLOCK);
         addDrop(ModBlocks.MALACHITE_BLOCK);
-
         addDrop(ModBlocks.VIBRANIUM_PLANKS);
         addDrop(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
         addDrop(ModBlocks.VIBRANIUM_PLANKS_SLAB, slabDrops(ModBlocks.VIBRANIUM_PLANKS_SLAB));
@@ -40,11 +39,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR);
         addDrop(ModBlocks.VIBRANIUM_PLANKS_BUTTON);
         addDrop(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
+        addDropWithSilkTouch(ModBlocks.ORPIMENT_LAMP);
 
         //Ores like
         addDrop(ModBlocks.RUBY_ORE, multipleOreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY, 1, 2));
         addDrop(ModBlocks.RUBY_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.RUBY_DEEPSLATE_ORE, ModItems.RUBY, 1, 2));
         addDrop(ModBlocks.MALACHITE_ORE, multipleOreDrops(ModBlocks.MALACHITE_ORE, ModItems.MALACHITE, 2, 3));
+
 
     }
 
@@ -56,4 +57,5 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 ItemEntry.builder(item).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(minDrops, maxDrops))))
                 .apply(ApplyBonusLootFunction.oreDrops(impl.getOrThrow(Enchantments.FORTUNE)))));
     }
+
 }

@@ -1,4 +1,4 @@
-// 1.21	2026-03-23T16:48:10.5566939	World of Ores/Model Definitions
+// 1.21	2026-03-26T12:03:06.0704296	World of Ores/Model Definitions
 592b009a7efc92975c85752a090755f86f6dbce3 assets\world-of-ores\models\block\vibranium_planks_slab_top.json
 b1e0af708e5e8ea9328e9f2e1a5e2625ef7f1455 assets\world-of-ores\models\block\vibranium_planks_fence_gate_wall.json
 d602cebdddfdb35fcb00182da4bb4d74f4ad4211 assets\world-of-ores\models\block\vibranium_planks_stairs_outer.json
@@ -20,6 +20,7 @@ c7780329d10a5b1e146a756c3f566705f9730d66 assets\world-of-ores\models\block\vibra
 96e2de78babe8ca0d2c8e1255eb01c1323e4c60f assets\world-of-ores\models\block\vibranium_planks_stairs_inner.json
 b01cf73a26905c831885d905155e968c2568c7d1 assets\world-of-ores\models\block\vibranium_planks_pressure_plate.json
 38cd42e6f3dd3d0b512d3d291fab62138eecceb0 assets\world-of-ores\models\block\vibranium_planks_trapdoor_open.json
+5a4e086336b242401a31fc31e73aa506aa4a62f7 assets\world-of-ores\models\item\orpiment_lamp.json
 09c0f660077d3964481438594f164837a2718040 assets\world-of-ores\models\block\vibranium_planks_door_bottom_right_open.json
 57d05aac214d9e7f671eda788f89035464979b67 assets\world-of-ores\models\block\vibranium_planks_door_top_right_open.json
 7a2f8c1ba57ec1e6c39fe988f6cd6591d141021e assets\world-of-ores\models\block\vibranium_planks_door_top_left_open.json
@@ -36,6 +37,7 @@ c911d10a8c1c73db3bdb70c2b704dc16b5aefb2d assets\world-of-ores\models\item\vibran
 7e459ef3b81d50dbb03777ad0585cd4fd4f79445 assets\world-of-ores\blockstates\ruby_deepslate_ore.json
 a7aed3c2bf4559f2e00e8bd49cbf441b11760c38 assets\world-of-ores\models\block\malachite_block.json
 6135d257d99c0ba7c6311f556cb81dcc602ddff2 assets\world-of-ores\models\block\vibranium_planks_button_pressed.json
+d57c5b101f0e3ecf53813185f7cfab932100fbf6 assets\world-of-ores\models\block\orpiment_lamp_on.json
 de12174a02148c01bbe8e3929b9cad58a61e797e assets\world-of-ores\blockstates\vibranium_planks_slab.json
 82dcbbe390ea0c2a49fac065a8046518d8373bf6 assets\world-of-ores\models\block\vibranium_planks_pressure_plate_down.json
 b5c736206d26d3fe8511622d0873ad70d0bb5966 assets\world-of-ores\models\block\vibranium_planks_trapdoor_top.json
@@ -52,15 +54,17 @@ fe6f60bdd6533e492b5389792fe8a0c9d7e1870c assets\world-of-ores\blockstates\vibran
 4bb8f7ffa312015d2e4ec2e9f787425ac50cf779 assets\world-of-ores\models\item\vibranium_planks_trapdoor.json
 c8d4770cc7f6e7db229c6dec6193af199c922ad2 assets\world-of-ores\models\item\vibranium_planks_slab.json
 e03e549d9c27bb44938c7e4c903d67e8ae6b2c99 assets\world-of-ores\models\item\uranium.json
-e89faec4db9a4e1a862f46cd039507d38b39c20b assets\world-of-ores\models\item\ruby_ore.json
 5fa7c69edfa67247a04f17c08d2c2c0b393084a3 assets\world-of-ores\models\block\vibranium_planks_fence_gate.json
+e89faec4db9a4e1a862f46cd039507d38b39c20b assets\world-of-ores\models\item\ruby_ore.json
 d5a557db12c52b82bd58805438fde7c07d47b084 assets\world-of-ores\models\block\vibranium_planks_door_bottom_left.json
 71f2eb7ddb0f484c83b16c2aa728e1b42d145fab assets\world-of-ores\models\block\vibranium_planks.json
+73a40248c36a8ab73b6293cc7f59e90f3a9bc2e5 assets\world-of-ores\models\block\orpiment_lamp.json
 77c46e5975724492b06b8fdb51a8dd937fb5be7a assets\world-of-ores\models\block\ruby_deepslate_ore.json
 0c5a18d6919c7d8baa213660cf3782e9397763c9 assets\world-of-ores\blockstates\vibranium_planks.json
 1e1b3d9e9635865f9408f96562e56c6c64a7998f assets\world-of-ores\blockstates\vibranium_planks_door.json
 9baa78244c117ed847f9f3a1fcc136fe3083eeed assets\world-of-ores\models\item\malachite_ore.json
 79b5d0f6265de2ebc6f10ad4372408d6c0838457 assets\world-of-ores\models\block\vibranium_planks_door_top_left.json
+2b6efe3fd4b2d7213f18b058c227075b03240e8f assets\world-of-ores\blockstates\orpiment_lamp.json
 3213ee03e3abc09cc49c2d30b3ee309d3d5ffe6c assets\world-of-ores\blockstates\vibranium_planks_trapdoor.json
 28b0ade084408e479b8e17d9169b4244bbc35c4a assets\world-of-ores\models\item\ruby_block.json
 046c8d7234bda9ad99f0ba5cd58f0246e45f9ef4 assets\world-of-ores\models\item\vibranium_planks_stairs.json

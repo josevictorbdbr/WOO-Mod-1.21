@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "world-of-ores:block/orpiment_lamp"
+    },
+    "clicked=true": {
+      "model": "world-of-ores:block/orpiment_lamp_on"
+    }
+  }
+}

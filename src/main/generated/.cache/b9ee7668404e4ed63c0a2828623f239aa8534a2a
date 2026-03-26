@@ -1,7 +1,8 @@
-// 1.21	2026-03-23T16:48:10.558694	World of Ores/Block Loot Tables
+// 1.21	2026-03-26T12:03:06.0734297	World of Ores/Block Loot Tables
 da1e93643be25c0c6badf68e038ddbcae7dbb152 data\world-of-ores\loot_table\blocks\vibranium_planks_door.json
 ba185fe43776d1af86e0811d36096ce80bf56ad0 data\world-of-ores\loot_table\blocks\vibranium_planks_fence_gate.json
 4e10c25fc0507bfaf791292193550bc8a16d9680 data\world-of-ores\loot_table\blocks\vibranium_planks_stairs.json
+3e95411f898f30c214afa472597bb815c215718a data\world-of-ores\loot_table\blocks\orpiment_lamp.json
 63a187a14c3f623e8ff0b7e933f69e8a8c5ef902 data\world-of-ores\loot_table\blocks\malachite_block.json
 7711ed7d6faaec5e2341c5d39f3ac1a11775fe05 data\world-of-ores\loot_table\blocks\vibranium_planks_button.json
 2da42c743b96cb1ffa52532ff97a1fc1635305d2 data\world-of-ores\loot_table\blocks\vibranium_planks_trapdoor.json
