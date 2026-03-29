@@ -1,6 +1,7 @@
 package josev.woo;
 
 import josev.woo.block.ModBlocks;
+import josev.woo.component.ModDataComponentTypes;
 import josev.woo.item.ModItemGroups;
 import josev.woo.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,6 +19,7 @@ public class WorldOfOres implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-	FuelRegistry.INSTANCE.add(ModItems.URANIUM, 4000);
+		ModDataComponentTypes.registerDataComponentsTypes();
+		FuelRegistry.INSTANCE.add(ModItems.URANIUM, 4000);
 	}
 }
