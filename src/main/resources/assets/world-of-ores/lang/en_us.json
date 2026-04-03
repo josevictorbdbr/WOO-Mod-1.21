@@ -1,14 +1,19 @@
 {
-  "item.world-of-ores.ruby": "Ruby",
   "item.world-of-ores.malachite": "Malachite",
   "item.world-of-ores.uranium": "Uranium",
-
-  "block.world-of-ores.ruby_block": "Ruby Block",
-  "block.world-of-ores.ruby_ore": "Ruby Ore",
-  "block.world-of-ores.ruby_deepslate_ore": "Ruby Deepslate Ore",
   "block.world-of-ores.malachite_block": "Malachite Block",
   "block.world-of-ores.malachite_ore": "Malachite Ore",
   "block.world-of-ores.orpiment_lamp": "Orpiment Lamp",
+
+  "item.world-of-ores.ruby": "Ruby",
+  "block.world-of-ores.ruby_block": "Ruby Block",
+  "block.world-of-ores.ruby_ore": "Ruby Ore",
+  "block.world-of-ores.ruby_deepslate_ore": "Ruby Deepslate Ore",
+  "item.world-of-ores.ruby_sword": "Ruby Sword",
+  "item.world-of-ores.ruby_pickaxe": "Ruby Pickaxe",
+  "item.world-of-ores.ruby_axe": "Ruby Axe",
+  "item.world-of-ores.ruby_shovel": "Ruby Shovel",
+  "item.world-of-ores.ruby_hoe": "Ruby Hoe",
 
   "block.world-of-ores.vibranium_planks": "Vibranium Planks",
   "block.world-of-ores.vibranium_planks_stairs": "Vibranium Planks Stairs",

@@ -1,4 +1,4 @@
-// 1.21	2026-03-26T12:03:06.0694294	World of Ores/Recipes
+// 1.21	2026-04-03T19:00:59.6006012	World of Ores/Recipes
 033e0ab36efd33e572a822424b9a84d29d1c27b9 data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_door.json
 9425634164faf0d0d0f324cd71cf1caa9724ed0a data\world-of-ores\recipe\malachite_block.json
 fed369c6c130a2c8abef39c9417d644a28f75c9c data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_fence.json
@@ -18,20 +18,30 @@ b5904fb07ad95f07b616da1a65da782d7d107f0c data\world-of-ores\recipe\vibranium_pla
 90d7313d0f8a1be9b06c0f03dd420f9a6fca0ae6 data\world-of-ores\advancement\recipes\misc\malachite_from_blasting_malachite_ore.json
 5b2fb9233e19757d840f7739aea93df8cebb58be data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_stairs.json
 c96fd94a1a81c54eba1cee7dfd1751bc6866853c data\world-of-ores\recipe\vibranium_planks_door.json
+714fba745ff97b04e2770f6e769571df6997027b data\world-of-ores\recipe\ruby_pickaxe.json
 84bda7da83eca9402b997fc193d797785ef4f179 data\world-of-ores\recipe\vibranium_planks_fence.json
 6c03ad8a280c5d58da58439712d26b654508e031 data\world-of-ores\recipe\ruby_from_smelting_ruby_deepslate_ore.json
+9a5f380a245b2571c6b97ec110601cf9d4bc72fd data\world-of-ores\advancement\recipes\tools\ruby_axe.json
+d007540405f00131c9968ca91057644dc97226ec data\world-of-ores\recipe\ruby_hoe.json
 ed1c7e419fc793fc57c0756b95a9eeacacafa611 data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_pressure_plate.json
 6aec4b95e08ee8a38dc8aed42acded22eff70b7f data\world-of-ores\advancement\recipes\misc\ruby_from_blasting_ruby_deepslate_ore.json
 9f84063e914a5d7e5e353ea677c9be094974b12b data\world-of-ores\advancement\recipes\misc\ruby_from_smelting_ruby_ore.json
 139b2847f8d5408b0c4993912e62951677b2b830 data\world-of-ores\advancement\recipes\decorations\ruby_block.json
+5848555516cc1a3bc0c643fa81a8b5b23fd53b37 data\world-of-ores\recipe\ruby_shovel.json
 c3ea69dcbad932133584a2d73c417a592931ffc8 data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_trapdoor.json
 f6373f0216776b2ef6ee04c99c48455a85df7baa data\world-of-ores\recipe\malachite_from_blasting_malachite_ore.json
 a99b20c73dd124af729e98c1db025c6dcfc58e0e data\world-of-ores\recipe\ruby.json
 9b9667ce04224fdf0fd07cf2e6a5d34be8f13f34 data\world-of-ores\advancement\recipes\decorations\malachite_block.json
+af2ad577e3d2cc4b5a641f10ca1bcfd1c3b921c8 data\world-of-ores\recipe\ruby_sword.json
 58e1585d9e5fd27fb758afe73dd7386cc94610da data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_button.json
 5ce73d7fc006a9acf4493a1f54f30203adb45ce3 data\world-of-ores\recipe\vibranium_planks_trapdoor.json
 6d5c4f41087b1c31a6e8902edb8d0078b309657a data\world-of-ores\advancement\recipes\misc\ruby_from_smelting_ruby_deepslate_ore.json
 29777f8e5cd91d775ca88ea939b3f30be14e13e3 data\world-of-ores\recipe\ruby_from_blasting_ruby_ore.json
 4353150987478b8b1343986b5b3a8adef02fbd7e data\world-of-ores\advancement\recipes\misc\ruby_from_blasting_ruby_ore.json
 843bd45f137f8009b398dc2b907e7ebd1172f679 data\world-of-ores\advancement\recipes\building_blocks\ruby.json
+dc41d32a2a56afeb90ff849c3f954709c77dbf90 data\world-of-ores\advancement\recipes\tools\ruby_pickaxe.json
 5150360395f1621cdf3eeb0f3471ad924d49bd17 data\world-of-ores\recipe\ruby_block.json
+d32e73b6ea9b01a17bc70e82452af219e2f16073 data\world-of-ores\advancement\recipes\combat\ruby_sword.json
+731c92b5ffbaf3e00f36963e82cf76f9dda09271 data\world-of-ores\advancement\recipes\tools\ruby_shovel.json
+9a2eba4e1965fc1b55b11e39a23f3663b3a27ebb data\world-of-ores\advancement\recipes\tools\ruby_hoe.json
+22a26c80323ea59f8a8adc882815df081d08cf79 data\world-of-ores\recipe\ruby_axe.json

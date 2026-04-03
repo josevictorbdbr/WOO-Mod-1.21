@@ -1,6 +1,7 @@
 package josev.woo.datagen;
 
 import josev.woo.block.ModBlocks;
+import josev.woo.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -50,6 +51,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(ModBlocks.VIBRANIUM_PLANKS_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.VIBRANIUM_PLANKS_FENCE_GATE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEED_RUBY_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
     }
 }

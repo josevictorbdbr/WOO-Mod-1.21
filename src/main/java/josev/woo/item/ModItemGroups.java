@@ -16,10 +16,15 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_HOE);
                         entries.add(ModItems.MALACHITE);
                         entries.add(ModBlocks.MALACHITE_BLOCK);
-                        entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.MALACHITE_ORE);
                         entries.add(ModItems.URANIUM);
                         entries.add(ModBlocks.ORPIMENT_LAMP);

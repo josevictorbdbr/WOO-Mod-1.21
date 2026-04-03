@@ -1,13 +1,16 @@
-// 1.21	2026-03-26T12:03:06.0704296	World of Ores/Model Definitions
+// 1.21	2026-04-03T19:00:59.602601	World of Ores/Model Definitions
 592b009a7efc92975c85752a090755f86f6dbce3 assets\world-of-ores\models\block\vibranium_planks_slab_top.json
+86c0ddef6488dcd87a806696032d619ba4a2bd67 assets\world-of-ores\models\item\ruby_pickaxe.json
 b1e0af708e5e8ea9328e9f2e1a5e2625ef7f1455 assets\world-of-ores\models\block\vibranium_planks_fence_gate_wall.json
 d602cebdddfdb35fcb00182da4bb4d74f4ad4211 assets\world-of-ores\models\block\vibranium_planks_stairs_outer.json
 68daff04ef53aa415bbd0a8a5f0a82e5742e8c77 assets\world-of-ores\blockstates\malachite_block.json
 7eceaab4a344f0615876349706fa41bf60a6162a assets\world-of-ores\models\block\ruby_ore.json
 64e493571cd6c02d46d03b8d55dfcc4144021f33 assets\world-of-ores\models\block\vibranium_planks_door_bottom_right.json
 4cf4e3d81e9737c34bbe7b61329cfe90c837855f assets\world-of-ores\models\item\vibranium_planks_fence_gate.json
+f37bdd3812640f132e93a9c8fe1e422b85533ffc assets\world-of-ores\models\item\ruby_hoe.json
 525cc502ed51f38e5cc7bfb88347aae02349794f assets\world-of-ores\models\block\vibranium_planks_door_bottom_left_open.json
 d1eebab0943a9e3f31777a7c53c2c0de80425122 assets\world-of-ores\models\item\vibranium_planks_fence.json
+3d79845b13f6100753d792081dbf43a9f173e030 assets\world-of-ores\models\item\ruby_shovel.json
 bf0ff6a0db9478be343aa39ec374d8a1b5f7f77b assets\world-of-ores\models\item\ruby.json
 d04c28a9249f3f9533046a1116c824940a20ca86 assets\world-of-ores\models\block\vibranium_planks_button_inventory.json
 63113aeeb96307218dec5516dd4e55702623e7d1 assets\world-of-ores\blockstates\vibranium_planks_stairs.json
@@ -19,8 +22,8 @@ deaea488ae171ba22d78a9ff3f30d8624ee31f02 assets\world-of-ores\models\block\vibra
 c7780329d10a5b1e146a756c3f566705f9730d66 assets\world-of-ores\models\block\vibranium_planks_button.json
 96e2de78babe8ca0d2c8e1255eb01c1323e4c60f assets\world-of-ores\models\block\vibranium_planks_stairs_inner.json
 b01cf73a26905c831885d905155e968c2568c7d1 assets\world-of-ores\models\block\vibranium_planks_pressure_plate.json
-38cd42e6f3dd3d0b512d3d291fab62138eecceb0 assets\world-of-ores\models\block\vibranium_planks_trapdoor_open.json
 5a4e086336b242401a31fc31e73aa506aa4a62f7 assets\world-of-ores\models\item\orpiment_lamp.json
+38cd42e6f3dd3d0b512d3d291fab62138eecceb0 assets\world-of-ores\models\block\vibranium_planks_trapdoor_open.json
 09c0f660077d3964481438594f164837a2718040 assets\world-of-ores\models\block\vibranium_planks_door_bottom_right_open.json
 57d05aac214d9e7f671eda788f89035464979b67 assets\world-of-ores\models\block\vibranium_planks_door_top_right_open.json
 7a2f8c1ba57ec1e6c39fe988f6cd6591d141021e assets\world-of-ores\models\block\vibranium_planks_door_top_left_open.json
@@ -48,6 +51,7 @@ bee76af3b1531e78df898f94211d1f2c91b96292 assets\world-of-ores\blockstates\ruby_b
 c1e267f7b099fbbc5c2d90e968b7117baf2c6e4e assets\world-of-ores\models\block\vibranium_planks_stairs.json
 18323223e3949075356899d97bd6b6e41c0098e5 assets\world-of-ores\models\item\vibranium_planks_pressure_plate.json
 fe6f60bdd6533e492b5389792fe8a0c9d7e1870c assets\world-of-ores\blockstates\vibranium_planks_fence_gate.json
+7f886a6cc5ab7be5385d4ae849e165a0751057d9 assets\world-of-ores\models\item\ruby_sword.json
 021a1a6908fccdd090de9a8bfb968f12dd6d6927 assets\world-of-ores\blockstates\vibranium_planks_button.json
 044f6e5235dbc827ca58e16dffca2eebc727f844 assets\world-of-ores\models\block\vibranium_planks_door_top_right.json
 9eac4b192dcc806799746ce4d876f20c66065507 assets\world-of-ores\models\item\malachite_block.json
@@ -61,6 +65,7 @@ d5a557db12c52b82bd58805438fde7c07d47b084 assets\world-of-ores\models\block\vibra
 73a40248c36a8ab73b6293cc7f59e90f3a9bc2e5 assets\world-of-ores\models\block\orpiment_lamp.json
 77c46e5975724492b06b8fdb51a8dd937fb5be7a assets\world-of-ores\models\block\ruby_deepslate_ore.json
 0c5a18d6919c7d8baa213660cf3782e9397763c9 assets\world-of-ores\blockstates\vibranium_planks.json
+a0f2c29f7bc6bc659b3c4d87dbd7583c186324b3 assets\world-of-ores\models\item\ruby_axe.json
 1e1b3d9e9635865f9408f96562e56c6c64a7998f assets\world-of-ores\blockstates\vibranium_planks_door.json
 9baa78244c117ed847f9f3a1fcc136fe3083eeed assets\world-of-ores\models\item\malachite_ore.json
 79b5d0f6265de2ebc6f10ad4372408d6c0838457 assets\world-of-ores\models\block\vibranium_planks_door_top_left.json
