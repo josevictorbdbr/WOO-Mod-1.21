@@ -1,4 +1,4 @@
-// 1.21	2026-04-03T19:00:59.602601	World of Ores/Model Definitions
+// 1.21	2026-04-06T12:45:05.7788046	World of Ores/Model Definitions
 592b009a7efc92975c85752a090755f86f6dbce3 assets\world-of-ores\models\block\vibranium_planks_slab_top.json
 86c0ddef6488dcd87a806696032d619ba4a2bd67 assets\world-of-ores\models\item\ruby_pickaxe.json
 b1e0af708e5e8ea9328e9f2e1a5e2625ef7f1455 assets\world-of-ores\models\block\vibranium_planks_fence_gate_wall.json
@@ -22,8 +22,8 @@ deaea488ae171ba22d78a9ff3f30d8624ee31f02 assets\world-of-ores\models\block\vibra
 c7780329d10a5b1e146a756c3f566705f9730d66 assets\world-of-ores\models\block\vibranium_planks_button.json
 96e2de78babe8ca0d2c8e1255eb01c1323e4c60f assets\world-of-ores\models\block\vibranium_planks_stairs_inner.json
 b01cf73a26905c831885d905155e968c2568c7d1 assets\world-of-ores\models\block\vibranium_planks_pressure_plate.json
-5a4e086336b242401a31fc31e73aa506aa4a62f7 assets\world-of-ores\models\item\orpiment_lamp.json
 38cd42e6f3dd3d0b512d3d291fab62138eecceb0 assets\world-of-ores\models\block\vibranium_planks_trapdoor_open.json
+5a4e086336b242401a31fc31e73aa506aa4a62f7 assets\world-of-ores\models\item\orpiment_lamp.json
 09c0f660077d3964481438594f164837a2718040 assets\world-of-ores\models\block\vibranium_planks_door_bottom_right_open.json
 57d05aac214d9e7f671eda788f89035464979b67 assets\world-of-ores\models\block\vibranium_planks_door_top_right_open.json
 7a2f8c1ba57ec1e6c39fe988f6cd6591d141021e assets\world-of-ores\models\block\vibranium_planks_door_top_left_open.json
@@ -39,6 +39,7 @@ c911d10a8c1c73db3bdb70c2b704dc16b5aefb2d assets\world-of-ores\models\item\vibran
 521a08e3ee85adf5302335a18e9c6596f8df1bab assets\world-of-ores\models\block\vibranium_planks_fence_inventory.json
 7e459ef3b81d50dbb03777ad0585cd4fd4f79445 assets\world-of-ores\blockstates\ruby_deepslate_ore.json
 a7aed3c2bf4559f2e00e8bd49cbf441b11760c38 assets\world-of-ores\models\block\malachite_block.json
+29aa0c70bb9ad404e0a4a3d43e27204057c60724 assets\world-of-ores\models\item\ruby_hammer.json
 6135d257d99c0ba7c6311f556cb81dcc602ddff2 assets\world-of-ores\models\block\vibranium_planks_button_pressed.json
 d57c5b101f0e3ecf53813185f7cfab932100fbf6 assets\world-of-ores\models\block\orpiment_lamp_on.json
 de12174a02148c01bbe8e3929b9cad58a61e797e assets\world-of-ores\blockstates\vibranium_planks_slab.json

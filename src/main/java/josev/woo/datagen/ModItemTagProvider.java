@@ -27,6 +27,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RUBY_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.RUBY_HOE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.RUBY_HAMMER);
 
     }
 }
