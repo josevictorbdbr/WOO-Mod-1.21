@@ -1,5 +1,7 @@
 {
   "values": [
+    "world-of-ores:uranium_block",
+    "world-of-ores:uranium_ore",
     "world-of-ores:ruby_block",
     "world-of-ores:ruby_ore",
     "world-of-ores:ruby_deepslate_ore"

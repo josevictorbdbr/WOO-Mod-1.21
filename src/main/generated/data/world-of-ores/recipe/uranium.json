@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "world-of-ores:uranium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "world-of-ores:uranium"
+  }
+}

@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
+    "V": {
       "item": "world-of-ores:vibranium_planks"
     }
   },
   "pattern": [
-    "RRR",
-    "RRR"
+    "VVV",
+    "VVV"
   ],
   "result": {
     "count": 2,

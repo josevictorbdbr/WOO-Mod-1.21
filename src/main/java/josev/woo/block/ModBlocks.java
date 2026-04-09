@@ -30,6 +30,13 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    //URANIUM
+    public static final Block URANIUM_BLOCK = registerBlock("uranium_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block URANIUM_ORE = registerBlock("uranium_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.STONE)));
+
     //ORPIMENT
     public static final Block ORPIMENT_LAMP = registerBlock("orpiment_lamp",
             new OrpimentLampBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()

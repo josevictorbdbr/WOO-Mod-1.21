@@ -12,6 +12,7 @@ public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item MALACHITE = registerItem("malachite", new Item(new Item.Settings()));
+
     public static final Item URANIUM = registerItem("uranium", new Item(new Item.Settings()));
 
     public static final Item RUBY_SWORD = registerItem("ruby_sword", new SwordItem(ModToolMaterials.RUBY,

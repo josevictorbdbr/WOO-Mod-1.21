@@ -23,6 +23,7 @@ public class WorldOfOres implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModDataComponentTypes.registerDataComponentsTypes();
 		FuelRegistry.INSTANCE.add(ModItems.URANIUM, 4000);
+		FuelRegistry.INSTANCE.add(ModBlocks.URANIUM_BLOCK, 38000);
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 	}
 }

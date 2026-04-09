@@ -20,6 +20,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_ORE);
         BlockStateModelGenerator.BlockTexturePool VibraniumPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VIBRANIUM_PLANKS);
 
         VibraniumPlanksPool.stairs(ModBlocks.VIBRANIUM_PLANKS_STAIRS);

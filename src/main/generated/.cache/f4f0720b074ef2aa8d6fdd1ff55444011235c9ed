@@ -1,8 +1,8 @@
-// 1.21	2026-04-06T12:45:05.7828048	World of Ores/Tags for minecraft:block
+// 1.21	2026-04-09T13:51:54.6289733	World of Ores/Tags for minecraft:block
 debacab36c790fef28921aa60a02df3a05cf366b data\minecraft\tags\block\fence_gates.json
-28e200017abe3aa067dfea0a240da99e8e1ca44c data\minecraft\tags\block\mineable\pickaxe.json
+35f132f47edfa9b056442e8eafc3a164d4916a1c data\minecraft\tags\block\mineable\pickaxe.json
 bc3125abbfdc3a42ba6066f13f130e0605b76a4c data\minecraft\tags\block\wooden_fences.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\world-of-ores\tags\block\needs_ruby_tool.json
-0cea13d9dbf343c7caa948e48df04bbeab074af2 data\minecraft\tags\block\needs_iron_tool.json
+df060de4aa375cb2f56e329e8393473ca5c56fe0 data\minecraft\tags\block\needs_iron_tool.json
 cc4f66541c012df002f3a1ee5ff87170aea716c6 data\minecraft\tags\block\mineable\axe.json
 d55f49874997ac3e27a6c5f11632bfd7b9c5203c data\minecraft\tags\block\needs_diamond_tool.json

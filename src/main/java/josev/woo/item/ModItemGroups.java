@@ -28,6 +28,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MALACHITE_BLOCK);
                         entries.add(ModBlocks.MALACHITE_ORE);
                         entries.add(ModItems.URANIUM);
+                        entries.add(ModBlocks.URANIUM_BLOCK);
+                        entries.add(ModBlocks.URANIUM_ORE);
                         entries.add(ModBlocks.ORPIMENT_LAMP);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_STAIRS);

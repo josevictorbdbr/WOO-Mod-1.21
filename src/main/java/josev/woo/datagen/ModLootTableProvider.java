@@ -29,6 +29,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         //Drops itself
         addDrop(ModBlocks.RUBY_BLOCK);
+        addDrop(ModBlocks.URANIUM_BLOCK);
         addDrop(ModBlocks.MALACHITE_BLOCK);
         addDrop(ModBlocks.VIBRANIUM_PLANKS);
         addDrop(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
@@ -45,7 +46,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_ORE, multipleOreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY, 1, 2));
         addDrop(ModBlocks.RUBY_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.RUBY_DEEPSLATE_ORE, ModItems.RUBY, 1, 2));
         addDrop(ModBlocks.MALACHITE_ORE, multipleOreDrops(ModBlocks.MALACHITE_ORE, ModItems.MALACHITE, 2, 3));
-
+        addDrop(ModBlocks.URANIUM_ORE, multipleOreDrops(ModBlocks.URANIUM_ORE, ModItems.URANIUM, 2, 4));
 
     }
 
