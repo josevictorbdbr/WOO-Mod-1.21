@@ -20,6 +20,11 @@
   "item.world-of-ores.ruby_hoe": "Ruby Hoe",
   "item.world-of-ores.ruby_hammer": "Ruby Hammer",
 
+  "item.world-of-ores.ruby_helmet": "Ruby Helmet",
+  "item.world-of-ores.ruby_chestplate": "Ruby Chestplate",
+  "item.world-of-ores.ruby_leggings": "Ruby Leggings",
+  "item.world-of-ores.ruby_boots": "Ruby Boots",
+
   "block.world-of-ores.vibranium_planks": "Vibranium Planks",
   "block.world-of-ores.vibranium_planks_stairs": "Vibranium Planks Stairs",
   "block.world-of-ores.vibranium_planks_slab": "Vibranium Planks Slab",

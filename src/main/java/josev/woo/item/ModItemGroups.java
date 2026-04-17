@@ -24,6 +24,10 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_SHOVEL);
                         entries.add(ModItems.RUBY_HOE);
                         entries.add(ModItems.RUBY_HAMMER);
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_CHESTPLATE);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
                         entries.add(ModItems.MALACHITE);
                         entries.add(ModBlocks.MALACHITE_BLOCK);
                         entries.add(ModBlocks.MALACHITE_ORE);

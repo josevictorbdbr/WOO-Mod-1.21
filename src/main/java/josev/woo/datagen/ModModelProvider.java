@@ -6,6 +6,7 @@ import josev.woo.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -53,5 +54,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_BOOTS);
     }
 }
