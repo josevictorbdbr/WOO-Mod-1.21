@@ -21,6 +21,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         //Pickaxe Tags
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.ORPIMENT_BLOCK)
                 .add(ModBlocks.URANIUM_BLOCK)
                 .add(ModBlocks.URANIUM_ORE)
                 .add(ModBlocks.RUBY_BLOCK)
@@ -30,6 +31,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MALACHITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.ORPIMENT_BLOCK)
                 .add(ModBlocks.URANIUM_BLOCK)
                 .add(ModBlocks.URANIUM_ORE)
                 .add(ModBlocks.RUBY_BLOCK)

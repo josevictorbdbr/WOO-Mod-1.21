@@ -1,7 +1,7 @@
-// 1.21	2026-04-17T13:48:54.5998609	World of Ores/Tags for minecraft:item
+// 1.21	2026-04-23T12:49:45.4470934	World of Ores/Tags for minecraft:item
 b54b976f2957be7164b8025479e96f67fafb88ee data\minecraft\tags\item\axes.json
 9bb6f7ff2037e27d796241fbf2c09a09f4030b63 data\minecraft\tags\item\trimmable_armor.json
 fa155cc93984dd200a785fd31bdb149f8ee1a4b9 data\minecraft\tags\item\pickaxes.json
-4e84ebc07cf9245663c2df9daefa212781f9cba2 data\minecraft\tags\item\swords.json
+2efb18d25b772817ac82bec088bc071e0d579129 data\minecraft\tags\item\swords.json
 699cc3b4d360827d028463198471dfabe2536186 data\minecraft\tags\item\shovels.json
 abfc90d22b5ae95029b8268141d62caf37916453 data\minecraft\tags\item\hoes.json

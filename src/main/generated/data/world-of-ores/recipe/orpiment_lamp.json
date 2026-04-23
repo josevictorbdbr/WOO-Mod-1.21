@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "O": {
+      "item": "world-of-ores:orpiment"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "OOO",
+    "ORO",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "world-of-ores:orpiment_lamp"
+  }
+}

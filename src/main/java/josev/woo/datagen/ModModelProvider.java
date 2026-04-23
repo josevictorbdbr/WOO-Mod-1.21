@@ -23,6 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORPIMENT_BLOCK);
         BlockStateModelGenerator.BlockTexturePool VibraniumPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VIBRANIUM_PLANKS);
 
         VibraniumPlanksPool.stairs(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
@@ -46,6 +47,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.MALACHITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.URANIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORPIMENT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);
@@ -55,9 +57,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_HAMMER, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.IRON_HAMMER, Models.HANDHELD);
+
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_BOOTS);
+
+        itemModelGenerator.register(ModItems.GRAPHITE_BAR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRAPHITE_SWORD, Models.HANDHELD);
     }
 }

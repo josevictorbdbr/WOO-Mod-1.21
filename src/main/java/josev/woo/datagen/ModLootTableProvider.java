@@ -40,6 +40,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR);
         addDrop(ModBlocks.VIBRANIUM_PLANKS_BUTTON);
         addDrop(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.ORPIMENT_BLOCK);
         addDropWithSilkTouch(ModBlocks.ORPIMENT_LAMP);
 
         //Ores like

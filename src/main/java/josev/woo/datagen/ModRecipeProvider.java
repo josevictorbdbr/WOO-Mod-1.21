@@ -4,6 +4,7 @@ import josev.woo.block.ModBlocks;
 import josev.woo.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
@@ -26,6 +27,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
+
+
+        //OTHER
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.IRON_HAMMER)
+                .pattern("III")
+                .pattern("ISI")
+                .pattern(" S ")
+                .input('I', Items.IRON_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter);
 
         //RUBY
         List<ItemConvertible> RUBY_SMELTABLES = List.of(ModBlocks.RUBY_ORE,
@@ -82,6 +94,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.RUBY)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter);
+
+        //GRAPHITE
+        List<ItemConvertible> GRAPHITE_SMELTABLE = List.of(Items.COAL, Blocks.COAL_BLOCK);
+        offerSmelting(exporter, GRAPHITE_SMELTABLE, RecipeCategory.MISC, ModItems.GRAPHITE_BAR, 0.25f, 200, "graphite_bar");
+        offerBlasting(exporter, GRAPHITE_SMELTABLE, RecipeCategory.MISC, ModItems.GRAPHITE_BAR, 0.25f, 100, "graphite_bar");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GRAPHITE_SWORD)
+                .pattern(" G ")
+                .pattern(" G ")
+                .pattern(" S ")
+                .input('G', ModItems.GRAPHITE_BAR)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.GRAPHITE_BAR), conditionsFromItem(ModItems.GRAPHITE_BAR))
+                .offerTo(exporter);
+
+        //ORPIMENT
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ORPIMENT, RecipeCategory.DECORATIONS, ModBlocks.ORPIMENT_BLOCK);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.ORPIMENT_LAMP)
+                .pattern("OOO")
+                .pattern("ORO")
+                .pattern("OOO")
+                .input('O', ModItems.ORPIMENT)
+                .input('R', Items.REDSTONE)
+                .criterion(hasItem(ModItems.ORPIMENT), conditionsFromItem(ModItems.ORPIMENT))
                 .offerTo(exporter);
 
         //MALACHITE

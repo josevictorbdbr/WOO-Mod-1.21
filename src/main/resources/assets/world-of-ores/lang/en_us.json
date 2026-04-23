@@ -3,11 +3,16 @@
   "block.world-of-ores.malachite_block": "Malachite Block",
   "block.world-of-ores.malachite_ore": "Malachite Ore",
 
+  "item.world-of-ores.orpiment": "Orpiment",
   "block.world-of-ores.orpiment_lamp": "Orpiment Lamp",
+  "block.world-of-ores.orpiment_block": "Orpiment Block",
 
   "item.world-of-ores.uranium": "Uranium",
   "block.world-of-ores.uranium_ore": "Uranium Ore",
   "block.world-of-ores.uranium_block": "Uranium Block",
+
+  "item.world-of-ores.graphite_bar": "Graphite Bar",
+  "item.world-of-ores.graphite_sword": "Graphite Sword",
 
   "item.world-of-ores.ruby": "Ruby",
   "block.world-of-ores.ruby_block": "Ruby Block",
@@ -19,6 +24,7 @@
   "item.world-of-ores.ruby_shovel": "Ruby Shovel",
   "item.world-of-ores.ruby_hoe": "Ruby Hoe",
   "item.world-of-ores.ruby_hammer": "Ruby Hammer",
+  "item.world-of-ores.iron_hammer": "Iron Hammer",
 
   "item.world-of-ores.ruby_helmet": "Ruby Helmet",
   "item.world-of-ores.ruby_chestplate": "Ruby Chestplate",

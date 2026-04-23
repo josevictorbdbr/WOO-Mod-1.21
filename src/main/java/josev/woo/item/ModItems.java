@@ -11,11 +11,16 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item MALACHITE = registerItem("malachite", new Item(new Item.Settings()));
+    public static final Item ORPIMENT = registerItem("orpiment", new Item(new Item.Settings()));
 
     public static final Item URANIUM = registerItem("uranium", new Item(new Item.Settings()));
 
+    public static final Item GRAPHITE_BAR = registerItem("graphite_bar", new Item(new Item.Settings()));
+    public static final Item GRAPHITE_SWORD = registerItem("graphite_sword", new SwordItem(ToolMaterials.STONE,
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.STONE, 1, -2.4f))));
+
+    public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item RUBY_SWORD = registerItem("ruby_sword", new SwordItem(ModToolMaterials.RUBY,
             new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RUBY, 3, -2.4f))));
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe", new PickaxeItem(ModToolMaterials.RUBY,
@@ -28,6 +33,9 @@ public class ModItems {
             new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.RUBY, -3, -0f))));
     public static final Item RUBY_HAMMER = registerItem("ruby_hammer", new HammerItem(ModToolMaterials.RUBY,
             new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RUBY, 7, -3.4f))));
+
+    public static final Item IRON_HAMMER = registerItem("iron_hammer", new HammerItem(ToolMaterials.IRON,
+            new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.IRON, 6, -3.4f))));
 
     public static final Item RUBY_HELMET = registerItem("ruby_helmet", new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL,
             ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(33))));

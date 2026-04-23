@@ -41,6 +41,8 @@ public class ModBlocks {
     public static final Block ORPIMENT_LAMP = registerBlock("orpiment_lamp",
             new OrpimentLampBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()
                     .luminance(state -> state.get(OrpimentLampBlock.CLICKED) ? 15 : 0).sounds(BlockSoundGroup.GLASS)));
+    public static final Block ORPIMENT_BLOCK = registerBlock("orpiment_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     //VIBRANIUM PLANKS
     public static final Block VIBRANIUM_PLANKS = registerBlock("vibranium_planks",
