@@ -46,6 +46,9 @@ public class ModItems {
     public static final Item RUBY_BOOTS = registerItem("ruby_boots", new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL,
             ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(33))));
 
+    public static final Item RUBY_HORSE_ARMOR = registerItem("ruby_horse_armor", new AnimalArmorItem(
+            ModArmorMaterials.RUBY_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WorldOfOres.MOD_ID, name), item);
     }

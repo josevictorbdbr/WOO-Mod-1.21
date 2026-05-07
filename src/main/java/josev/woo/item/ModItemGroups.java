@@ -29,6 +29,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_CHESTPLATE);
                         entries.add(ModItems.RUBY_LEGGINGS);
                         entries.add(ModItems.RUBY_BOOTS);
+                        entries.add(ModItems.RUBY_HORSE_ARMOR);
                         entries.add(ModItems.GRAPHITE_BAR);
                         entries.add(ModItems.GRAPHITE_SWORD);
                         entries.add(ModItems.MALACHITE);
