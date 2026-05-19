@@ -4,6 +4,7 @@ import josev.woo.block.ModBlocks;
 import josev.woo.component.ModDataComponentTypes;
 import josev.woo.item.ModItemGroups;
 import josev.woo.item.ModItems;
+import josev.woo.sound.ModSounds;
 import josev.woo.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
@@ -25,5 +26,6 @@ public class WorldOfOres implements ModInitializer {
 		FuelRegistry.INSTANCE.add(ModItems.URANIUM, 4000);
 		FuelRegistry.INSTANCE.add(ModBlocks.URANIUM_BLOCK, 38000);
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
+		ModSounds.registerSounds();
 	}
 }
