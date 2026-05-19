@@ -1,4 +1,4 @@
-// 1.21	2026-05-12T11:53:31.8150248	World of Ores/Model Definitions
+// 1.21	2026-05-19T15:52:24.5130049	World of Ores/Model Definitions
 aa881539e539e2ffe02914f0c32dc8884385c7f1 assets\world-of-ores\models\item\ruby_helmet_gold_trim.json
 0bbd5ea582ba19caeec5066d0cec230e0560debb assets\world-of-ores\models\item\ruby_helmet_lapis_trim.json
 86c0ddef6488dcd87a806696032d619ba4a2bd67 assets\world-of-ores\models\item\ruby_pickaxe.json
@@ -46,15 +46,15 @@ cf105c35dbab4e9d18d60ebb72ce828d19895092 assets\world-of-ores\models\item\iron_h
 d9c15f3273be52fe2db1b95f5032d6c3bfcce1ab assets\world-of-ores\models\item\ruby_helmet_diamond_trim.json
 d57c5b101f0e3ecf53813185f7cfab932100fbf6 assets\world-of-ores\models\block\orpiment_lamp_on.json
 de12174a02148c01bbe8e3929b9cad58a61e797e assets\world-of-ores\blockstates\vibranium_planks_slab.json
-51abdb1de4d9b53ddfaa556ea1ab72a0d04f7b6c assets\world-of-ores\models\item\ruby_boots_amethyst_trim.json
 a922cf71429e1cb97f5c6ff7b07ec0389c925ea7 assets\world-of-ores\models\block\uranium_ore.json
+51abdb1de4d9b53ddfaa556ea1ab72a0d04f7b6c assets\world-of-ores\models\item\ruby_boots_amethyst_trim.json
 69a56e6dc1f9585edd479aed42dbbb41d5d65900 assets\world-of-ores\models\item\ruby_helmet_amethyst_trim.json
 c1e267f7b099fbbc5c2d90e968b7117baf2c6e4e assets\world-of-ores\models\block\vibranium_planks_stairs.json
 18323223e3949075356899d97bd6b6e41c0098e5 assets\world-of-ores\models\item\vibranium_planks_pressure_plate.json
 7f886a6cc5ab7be5385d4ae849e165a0751057d9 assets\world-of-ores\models\item\ruby_sword.json
 12099e6c5497e6256100711d07072c5b2db1feb4 assets\world-of-ores\models\item\ruby_helmet_netherite_trim.json
-b277315a13007c1dc0bf0a896f342667e31c90aa assets\world-of-ores\blockstates\uranium_block.json
 021a1a6908fccdd090de9a8bfb968f12dd6d6927 assets\world-of-ores\blockstates\vibranium_planks_button.json
+b277315a13007c1dc0bf0a896f342667e31c90aa assets\world-of-ores\blockstates\uranium_block.json
 dc7508eda852eb49b464ab9eaac1bbd257efe942 assets\world-of-ores\models\item\ruby_helmet.json
 9eac4b192dcc806799746ce4d876f20c66065507 assets\world-of-ores\models\item\malachite_block.json
 4bb8f7ffa312015d2e4ec2e9f787425ac50cf779 assets\world-of-ores\models\item\vibranium_planks_trapdoor.json
