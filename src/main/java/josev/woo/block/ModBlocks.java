@@ -66,7 +66,16 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(4f).requiresTool().noCollision()));
     public static final Block VIBRANIUM_PLANKS_PRESSURE_PLATE = registerBlock("vibranium_planks_pressure_plate",
             new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(4f).requiresTool()));
-
+    //NETHER
+    //CROCIDOLITE NETHER
+    public static final Block CROCIDOLITE_ORE = registerBlock("crocidolite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.STONE)));
+    //END
+    //ENDERITE
+    public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerModBlockItem(name, block);

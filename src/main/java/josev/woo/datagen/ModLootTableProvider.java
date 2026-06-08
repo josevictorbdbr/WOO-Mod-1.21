@@ -48,6 +48,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.RUBY_DEEPSLATE_ORE, ModItems.RUBY, 1, 2));
         addDrop(ModBlocks.MALACHITE_ORE, multipleOreDrops(ModBlocks.MALACHITE_ORE, ModItems.MALACHITE, 2, 3));
         addDrop(ModBlocks.URANIUM_ORE, multipleOreDrops(ModBlocks.URANIUM_ORE, ModItems.URANIUM, 2, 4));
+        addDrop(ModBlocks.CROCIDOLITE_ORE, multipleOreDrops(ModBlocks.CROCIDOLITE_ORE, ModItems.RUBY_HELMET, 1, 2));
+        addDrop(ModBlocks.ENDERITE_ORE, multipleOreDrops(ModBlocks.ENDERITE_ORE, ModItems.RUBY_HELMET, 1, 1));
 
     }
 

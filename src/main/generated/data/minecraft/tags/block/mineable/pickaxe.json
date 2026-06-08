@@ -7,6 +7,8 @@
     "world-of-ores:ruby_ore",
     "world-of-ores:ruby_deepslate_ore",
     "world-of-ores:malachite_block",
-    "world-of-ores:malachite_ore"
+    "world-of-ores:malachite_ore",
+    "world-of-ores:enderite_ore",
+    "world-of-ores:crocidolite_ore"
   ]
 }

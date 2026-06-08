@@ -28,7 +28,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE)
                 .add(ModBlocks.MALACHITE_BLOCK)
-                .add(ModBlocks.MALACHITE_ORE);
+                .add(ModBlocks.MALACHITE_ORE)
+                .add(ModBlocks.ENDERITE_ORE)
+                .add(ModBlocks.CROCIDOLITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ORPIMENT_BLOCK)
@@ -39,6 +41,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.ENDERITE_ORE)
+                .add(ModBlocks.CROCIDOLITE_ORE)
                 .add(ModBlocks.MALACHITE_BLOCK)
                 .add(ModBlocks.MALACHITE_ORE);
 

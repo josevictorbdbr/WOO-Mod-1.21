@@ -1,4 +1,4 @@
-// 1.21	2026-05-19T15:52:24.5160048	World of Ores/Block Loot Tables
+// 1.21	2026-06-08T12:12:12.2757032	World of Ores/Block Loot Tables
 da1e93643be25c0c6badf68e038ddbcae7dbb152 data\world-of-ores\loot_table\blocks\vibranium_planks_door.json
 80ac18d0cc21b948fa2c10f7580c6bb3b328ae3b data\world-of-ores\loot_table\blocks\orpiment_block.json
 ba185fe43776d1af86e0811d36096ce80bf56ad0 data\world-of-ores\loot_table\blocks\vibranium_planks_fence_gate.json
@@ -7,8 +7,10 @@ ba185fe43776d1af86e0811d36096ce80bf56ad0 data\world-of-ores\loot_table\blocks\vi
 3e95411f898f30c214afa472597bb815c215718a data\world-of-ores\loot_table\blocks\orpiment_lamp.json
 63a187a14c3f623e8ff0b7e933f69e8a8c5ef902 data\world-of-ores\loot_table\blocks\malachite_block.json
 7711ed7d6faaec5e2341c5d39f3ac1a11775fe05 data\world-of-ores\loot_table\blocks\vibranium_planks_button.json
+a514a504610951894cbf56c391cc68d53ce8b9d4 data\world-of-ores\loot_table\blocks\enderite_ore.json
 2da42c743b96cb1ffa52532ff97a1fc1635305d2 data\world-of-ores\loot_table\blocks\vibranium_planks_trapdoor.json
 c2711f2c2f500f6ee0e66e80c1ca17b392292d8d data\world-of-ores\loot_table\blocks\vibranium_planks.json
+dc8ff54fb939c3fa8f27f5a08ab9f15f40b0fb29 data\world-of-ores\loot_table\blocks\crocidolite_ore.json
 c2f98f121f006587e56a8c65a639a11d641bcfe3 data\world-of-ores\loot_table\blocks\vibranium_planks_fence.json
 fb6cf423196c4d9f2b292df23765c69b4fc08600 data\world-of-ores\loot_table\blocks\malachite_ore.json
 5a7d002a4d3d2fac496665917e6c6f7790149ccd data\world-of-ores\loot_table\blocks\ruby_block.json

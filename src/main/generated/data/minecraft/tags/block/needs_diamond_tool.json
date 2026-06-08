@@ -1,5 +1,7 @@
 {
   "values": [
+    "world-of-ores:enderite_ore",
+    "world-of-ores:crocidolite_ore",
     "world-of-ores:malachite_block",
     "world-of-ores:malachite_ore"
   ]

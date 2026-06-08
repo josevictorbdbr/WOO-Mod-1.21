@@ -1,2 +1,8 @@
-// 1.21	2026-05-19T15:52:24.517005	World of Ores/
+// 1.21	2026-06-08T12:12:12.2766989	World of Ores/
+92079752c1a1e90fff24793b4284c2ae325117d3 data\world-of-ores\worldgen\configured_feature\crocidolite_ore.json
 bcedfc4a0694cdb7b9b883277a4e55694d585b44 data\world-of-ores\trim_material\ruby.json
+7bc984f89602e21e62af19e33b3cc0ba68ced08c data\world-of-ores\worldgen\placed_feature\ruby_ore_placed.json
+336f3438a901b16aec3120dc48094d55b4a6681c data\world-of-ores\worldgen\configured_feature\enderite_ore.json
+37dc3252c1233d8964a95d67b16576a8f6fcecde data\world-of-ores\worldgen\configured_feature\ruby_ore.json
+5f9bfd01dfd8e003e7f6f577a2d9835d61f0a8d4 data\world-of-ores\worldgen\placed_feature\nether_crocidolite_ore_placed.json
+cf63b519e20684479087ac70efcfea34e8f8cf98 data\world-of-ores\worldgen\placed_feature\end_enderite_ore_placed.json

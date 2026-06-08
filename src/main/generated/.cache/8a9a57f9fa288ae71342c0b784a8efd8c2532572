@@ -1,11 +1,13 @@
-// 1.21	2026-05-19T15:52:24.5130049	World of Ores/Model Definitions
+// 1.21	2026-06-08T12:12:12.2727126	World of Ores/Model Definitions
 aa881539e539e2ffe02914f0c32dc8884385c7f1 assets\world-of-ores\models\item\ruby_helmet_gold_trim.json
-0bbd5ea582ba19caeec5066d0cec230e0560debb assets\world-of-ores\models\item\ruby_helmet_lapis_trim.json
 86c0ddef6488dcd87a806696032d619ba4a2bd67 assets\world-of-ores\models\item\ruby_pickaxe.json
+0bbd5ea582ba19caeec5066d0cec230e0560debb assets\world-of-ores\models\item\ruby_helmet_lapis_trim.json
 97318d95b0d5e38fc46e65c9e80c4d7f8dece0a2 assets\world-of-ores\models\item\ruby_boots_lapis_trim.json
 b1e0af708e5e8ea9328e9f2e1a5e2625ef7f1455 assets\world-of-ores\models\block\vibranium_planks_fence_gate_wall.json
 b2b7eb52fc33ad5af2334a0c16a47ebe079bd6e0 assets\world-of-ores\models\item\ruby_chestplate_iron_trim.json
+c5e9714bbfa60027c503a85c9ca4dbb0616077bf assets\world-of-ores\models\item\crocidolite_ore.json
 68daff04ef53aa415bbd0a8a5f0a82e5742e8c77 assets\world-of-ores\blockstates\malachite_block.json
+4764da592e6a39aa9de4387f4917b8efa72a02d6 assets\world-of-ores\blockstates\enderite_ore.json
 de63fef1577be133d9a58ef5c0775d4c7035b928 assets\world-of-ores\models\item\ruby_chestplate_copper_trim.json
 7eceaab4a344f0615876349706fa41bf60a6162a assets\world-of-ores\models\block\ruby_ore.json
 64e493571cd6c02d46d03b8d55dfcc4144021f33 assets\world-of-ores\models\block\vibranium_planks_door_bottom_right.json
@@ -53,6 +55,7 @@ c1e267f7b099fbbc5c2d90e968b7117baf2c6e4e assets\world-of-ores\models\block\vibra
 18323223e3949075356899d97bd6b6e41c0098e5 assets\world-of-ores\models\item\vibranium_planks_pressure_plate.json
 7f886a6cc5ab7be5385d4ae849e165a0751057d9 assets\world-of-ores\models\item\ruby_sword.json
 12099e6c5497e6256100711d07072c5b2db1feb4 assets\world-of-ores\models\item\ruby_helmet_netherite_trim.json
+91f85b1c62e7c7ce64fd987d499a261820316742 assets\world-of-ores\models\block\enderite_ore.json
 021a1a6908fccdd090de9a8bfb968f12dd6d6927 assets\world-of-ores\blockstates\vibranium_planks_button.json
 b277315a13007c1dc0bf0a896f342667e31c90aa assets\world-of-ores\blockstates\uranium_block.json
 dc7508eda852eb49b464ab9eaac1bbd257efe942 assets\world-of-ores\models\item\ruby_helmet.json
@@ -61,6 +64,7 @@ dc7508eda852eb49b464ab9eaac1bbd257efe942 assets\world-of-ores\models\item\ruby_h
 c8d4770cc7f6e7db229c6dec6193af199c922ad2 assets\world-of-ores\models\item\vibranium_planks_slab.json
 e89faec4db9a4e1a862f46cd039507d38b39c20b assets\world-of-ores\models\item\ruby_ore.json
 5fa7c69edfa67247a04f17c08d2c2c0b393084a3 assets\world-of-ores\models\block\vibranium_planks_fence_gate.json
+f22cbe1f355625199b0509314540951d4eb4c2f6 assets\world-of-ores\models\item\enderite_ore.json
 77c46e5975724492b06b8fdb51a8dd937fb5be7a assets\world-of-ores\models\block\ruby_deepslate_ore.json
 0c5a18d6919c7d8baa213660cf3782e9397763c9 assets\world-of-ores\blockstates\vibranium_planks.json
 5f1d9ce319538eca4ca722bc02d711cb8084211f assets\world-of-ores\models\item\ruby_leggings_iron_trim.json
@@ -86,6 +90,7 @@ df6e5ccf2ba40352a1411b3a32693d7f36840549 assets\world-of-ores\models\item\ruby_l
 7655586b979e4c22d3d55c108e639ebdb9300436 assets\world-of-ores\models\item\ruby_boots_redstone_trim.json
 386d7886a2550e594f3a37c7402a070b4dee5397 assets\world-of-ores\models\item\ruby_leggings_emerald_trim.json
 c2f19f5e1e96cc916150725e82af7be2efb9937e assets\world-of-ores\models\block\malachite_ore.json
+938ff3066419c5aa41b05e8abdefde13bcaea5cc assets\world-of-ores\models\block\crocidolite_ore.json
 8c07fae082e9c5cafffaf6e3d6187f09396a2030 assets\world-of-ores\blockstates\uranium_ore.json
 edcf93d469ae31ba64b0dd89d2d7bfaf82da816c assets\world-of-ores\models\item\ruby_chestplate.json
 af7f2c777a9d1dade75af787c5c7bb34a21f06ce assets\world-of-ores\models\block\vibranium_planks_slab.json
@@ -101,6 +106,7 @@ cf55f432b5db69ab358ba8190bea6b42355f79f0 assets\world-of-ores\models\block\orpim
 25899e1d4755d026daa43da8e3f99202bea4e6fb assets\world-of-ores\models\block\vibranium_planks_fence_post.json
 628b4db346f576a7a19b867fe485c36b3329f52c assets\world-of-ores\models\block\vibranium_planks_fence_gate_wall_open.json
 bd7b942fad4e1280a4a3691281a82f63248481d7 assets\world-of-ores\models\item\orpiment.json
+c57454d85030acd1b762a4771d4a3204f9e302f5 assets\world-of-ores\blockstates\crocidolite_ore.json
 c911d10a8c1c73db3bdb70c2b704dc16b5aefb2d assets\world-of-ores\models\item\vibranium_planks.json
 5a0425e6f02653dc6f83bd725683c55b1cb2833b assets\world-of-ores\blockstates\malachite_ore.json
 7e459ef3b81d50dbb03777ad0585cd4fd4f79445 assets\world-of-ores\blockstates\ruby_deepslate_ore.json
