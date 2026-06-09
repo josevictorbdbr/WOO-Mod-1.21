@@ -25,14 +25,14 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, RUBY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBY_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(4,
-                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(20))));
+                ModOrePlacement.modifiersWithCount(2,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-60), YOffset.fixed(10))));
         register(context, NETHER_CROCIDOLITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CROCIDOLITE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(4,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(1,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(80))));
         register(context, END_ENDERITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ENDERITE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(4,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(1,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(80))));
 
     }
 
