@@ -21,6 +21,7 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> RUBY_ORE_KEY = registerKey("ruby_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> MALACHITE_ORE_KEY = registerKey("malachite_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> CROCIDOLITE_ORE_KEY = registerKey("crocidolite_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> ENDERITE_ORE_KEY = registerKey("enderite_ore");
 
@@ -36,12 +37,18 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> overworldRubyOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RUBY_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.RUBY_DEEPSLATE_ORE.getDefaultState()));
+
+        List<OreFeatureConfig.Target> overworldMalachiteOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.MALACHITE_ORE.getDefaultState()));
+
         List<OreFeatureConfig.Target> netherCrocidoliteOres =
                 List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.CROCIDOLITE_ORE.getDefaultState()));
+
         List<OreFeatureConfig.Target> endEnderiteOres =
                 List.of(OreFeatureConfig.createTarget(endReplaceables, ModBlocks.ENDERITE_ORE.getDefaultState()));
 
-        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 8));
+        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 6));
+        register(context, MALACHITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMalachiteOres, 8));
         register(context, CROCIDOLITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherCrocidoliteOres, 5));
         register(context, ENDERITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endEnderiteOres, 6));
     }

@@ -18,6 +18,7 @@ import java.util.List;
 
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> RUBY_PLACED_KEY = registerKey("ruby_ore_placed");
+    public static final RegistryKey<PlacedFeature> MALACHITE_PLACED_KEY = registerKey("malachite_ore_placed");
     public static final RegistryKey<PlacedFeature> NETHER_CROCIDOLITE_PLACED_KEY = registerKey("nether_crocidolite_ore_placed");
     public static final RegistryKey<PlacedFeature> END_ENDERITE_PLACED_KEY = registerKey("end_enderite_ore_placed");
 
@@ -27,9 +28,15 @@ public class ModPlacedFeatures {
         register(context, RUBY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBY_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(2,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-60), YOffset.fixed(10))));
+
+        register(context, MALACHITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MALACHITE_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(5,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-5), YOffset.fixed(40))));
+
         register(context, NETHER_CROCIDOLITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CROCIDOLITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(1,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(80))));
+
         register(context, END_ENDERITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ENDERITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(1,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(80))));

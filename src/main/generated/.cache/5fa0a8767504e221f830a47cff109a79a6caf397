@@ -1,8 +1,10 @@
-// 1.21	2026-06-09T11:51:59.5149833	World of Ores/
+// 1.21	2026-06-09T12:10:28.4487206	World of Ores/
 92079752c1a1e90fff24793b4284c2ae325117d3 data\world-of-ores\worldgen\configured_feature\crocidolite_ore.json
 bcedfc4a0694cdb7b9b883277a4e55694d585b44 data\world-of-ores\trim_material\ruby.json
 bb0d04750edb5c0ff900fd8ebd281294b522c8db data\world-of-ores\worldgen\placed_feature\ruby_ore_placed.json
-37dc3252c1233d8964a95d67b16576a8f6fcecde data\world-of-ores\worldgen\configured_feature\ruby_ore.json
+6c4ea1dd4e642059796354f4a9809188e1bcc37d data\world-of-ores\worldgen\placed_feature\malachite_ore_placed.json
 336f3438a901b16aec3120dc48094d55b4a6681c data\world-of-ores\worldgen\configured_feature\enderite_ore.json
+953978b702403464250443eea0c4b7297f40c463 data\world-of-ores\worldgen\configured_feature\ruby_ore.json
 e58317df8d649dc457b2a0a60b321604900f3c81 data\world-of-ores\worldgen\placed_feature\nether_crocidolite_ore_placed.json
+a10f098d4e45cee0ffd8d01106dfe74bf40187fa data\world-of-ores\worldgen\configured_feature\malachite_ore.json
 7b9783b3da553a7c2ec621210901b6178d7b818a data\world-of-ores\worldgen\placed_feature\end_enderite_ore_placed.json
