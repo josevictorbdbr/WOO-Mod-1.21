@@ -8,6 +8,7 @@ import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
@@ -30,6 +31,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         //Drops itself
         addDrop(ModBlocks.RUBY_BLOCK);
         addDrop(ModBlocks.URANIUM_BLOCK);
+        addDrop(ModBlocks.LEAD_BLOCK);
+        addDrop(ModBlocks.BLOCK_OF_RAW_LEAD);
+        addDrop(ModBlocks.ENDERITE_BLOCK);
+        addDrop(ModBlocks.BLOCK_OF_RAW_ENDERITE);
         addDrop(ModBlocks.MALACHITE_BLOCK);
         addDrop(ModBlocks.VIBRANIUM_PLANKS);
         addDrop(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
@@ -48,8 +53,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.RUBY_DEEPSLATE_ORE, ModItems.RUBY, 1, 2));
         addDrop(ModBlocks.MALACHITE_ORE, multipleOreDrops(ModBlocks.MALACHITE_ORE, ModItems.MALACHITE, 2, 3));
         addDrop(ModBlocks.URANIUM_ORE, multipleOreDrops(ModBlocks.URANIUM_ORE, ModItems.URANIUM, 2, 4));
-        addDrop(ModBlocks.CROCIDOLITE_ORE, multipleOreDrops(ModBlocks.CROCIDOLITE_ORE, ModItems.RUBY_HELMET, 1, 2));
-        addDrop(ModBlocks.ENDERITE_ORE, multipleOreDrops(ModBlocks.ENDERITE_ORE, ModItems.RUBY_HELMET, 1, 1));
+        addDrop(ModBlocks.CROCIDOLITE_ORE, multipleOreDrops(ModBlocks.CROCIDOLITE_ORE, ModItems.CROCIDOLITE, 1, 2));
+        addDrop(ModBlocks.ENDERITE_ORE, multipleOreDrops(ModBlocks.ENDERITE_ORE, ModItems.RAW_ENDERITE, 1, 1));
+        addDrop(ModBlocks.LEAD_ORE, multipleOreDrops(ModBlocks.LEAD_ORE, ModItems.RAW_LEAD, 1, 1));
+        addDrop(ModBlocks.ORPIMENT_ORE, multipleOreDrops(ModBlocks.ORPIMENT_ORE, ModItems.ORPIMENT, 2, 3));
+        addDrop(ModBlocks.COAL_SAND_ORE, multipleOreDrops(ModBlocks.COAL_SAND_ORE, Items.COAL, 1, 2));
+
 
     }
 

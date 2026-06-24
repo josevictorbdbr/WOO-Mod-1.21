@@ -21,9 +21,12 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> RUBY_ORE_KEY = registerKey("ruby_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> SAND_COAL_KEY = registerKey("coal_sand_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> MALACHITE_ORE_KEY = registerKey("malachite_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> CROCIDOLITE_ORE_KEY = registerKey("crocidolite_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> ENDERITE_ORE_KEY = registerKey("enderite_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> LEAD_ORE_KEY = registerKey("lead_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ORPIMENT_ORE_KEY = registerKey("orpiment_ore");
 
 
 
@@ -31,6 +34,8 @@ public class ModConfiguredFeatures {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
         RuleTest netherReplaceables = new TagMatchRuleTest(BlockTags.BASE_STONE_NETHER);
+        RuleTest soulSandReplaceables = new TagMatchRuleTest(BlockTags.SOUL_SPEED_BLOCKS);
+        RuleTest sandReplaceables = new TagMatchRuleTest(BlockTags.SAND);
         RuleTest endReplaceables = new BlockMatchRuleTest(Blocks.END_STONE);
 
 
@@ -38,19 +43,32 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RUBY_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.RUBY_DEEPSLATE_ORE.getDefaultState()));
 
+        List<OreFeatureConfig.Target> overworldLeadOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.LEAD_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.LEAD_DEEPSLATE_ORE.getDefaultState()));
+
+        List<OreFeatureConfig.Target> desertSandCoalOres =
+                List.of(OreFeatureConfig.createTarget(sandReplaceables, ModBlocks.COAL_SAND_ORE.getDefaultState()));
+
         List<OreFeatureConfig.Target> overworldMalachiteOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.MALACHITE_ORE.getDefaultState()));
 
+        List<OreFeatureConfig.Target> overworldOrpimentOres =
+                List.of(OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.ORPIMENT_ORE.getDefaultState()));
+
         List<OreFeatureConfig.Target> netherCrocidoliteOres =
-                List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.CROCIDOLITE_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(soulSandReplaceables, ModBlocks.CROCIDOLITE_ORE.getDefaultState()));
 
         List<OreFeatureConfig.Target> endEnderiteOres =
                 List.of(OreFeatureConfig.createTarget(endReplaceables, ModBlocks.ENDERITE_ORE.getDefaultState()));
 
         register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 6));
         register(context, MALACHITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMalachiteOres, 8));
+        register(context, SAND_COAL_KEY, Feature.ORE, new OreFeatureConfig(desertSandCoalOres, 3));
         register(context, CROCIDOLITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherCrocidoliteOres, 5));
         register(context, ENDERITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endEnderiteOres, 6));
+        register(context, LEAD_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldLeadOres, 8));
+        register(context, ORPIMENT_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOrpimentOres, 6));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

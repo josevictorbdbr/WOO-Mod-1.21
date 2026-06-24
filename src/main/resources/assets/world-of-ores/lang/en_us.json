@@ -4,18 +4,34 @@
   "block.world-of-ores.malachite_ore": "Malachite Ore",
 
   "item.world-of-ores.orpiment": "Orpiment",
-  "block.world-of-ores.orpiment_lamp": "Orpiment Lamp",
+  "block.world-of-ores.orpiment_lamp": "Orpiment Lamp Block",
   "block.world-of-ores.orpiment_block": "Orpiment Block",
+  "block.world-of-ores.orpiment_ore": "Orpiment Deepslate Ore",
+
+  "item.world-of-ores.lead_ingot": "Lead Ingot",
+  "item.world-of-ores.lead_nugget": "Lead Nugget",
+  "block.world-of-ores.lead_ore": "Lead Ore",
+  "block.world-of-ores.lead_block": "Lead Block",
+  "block.world-of-ores.lead_deepslate_ore": "Lead Deepslate Ore",
 
   "item.world-of-ores.uranium": "Uranium",
   "block.world-of-ores.uranium_ore": "Uranium Ore",
   "block.world-of-ores.uranium_block": "Uranium Block",
 
   "item.world-of-ores.graphite_bar": "Graphite Bar",
-  "item.world-of-ores.graphite_sword": "Graphite Sword",
+  "item.world-of-ores.graphite_sword": "Graphite... Sword?",
 
   "block.world-of-ores.crocidolite_ore": "Crocidolite Ore",
+  "item.world-of-ores.crocidolite": "Crocidolite",
+
   "block.world-of-ores.enderite_ore": "Enderite Ore",
+  "block.world-of-ores.enderite_block": "Enderite Block",
+  "block.world-of-ores.block_of_raw_enderite": "Block of Raw Enderite",
+  "item.world-of-ores.enderite_ingot": "Enderite Ingot",
+  "item.world-of-ores.raw_enderite": "Raw Enderite",
+
+  "item.world-of-ores.iron_hammer": "Iron Hammer",
+  "block.world-of-ores.coal_sand_ore": "Coal Sand Ore",
 
   "item.world-of-ores.ruby": "Ruby",
   "block.world-of-ores.ruby_block": "Ruby Block",
@@ -27,15 +43,11 @@
   "item.world-of-ores.ruby_shovel": "Ruby Shovel",
   "item.world-of-ores.ruby_hoe": "Ruby Hoe",
   "item.world-of-ores.ruby_hammer": "Ruby Hammer",
-  "item.world-of-ores.iron_hammer": "Iron Hammer",
-
   "item.world-of-ores.ruby_helmet": "Ruby Helmet",
   "item.world-of-ores.ruby_chestplate": "Ruby Chestplate",
   "item.world-of-ores.ruby_leggings": "Ruby Leggings",
   "item.world-of-ores.ruby_boots": "Ruby Boots",
-
   "item.world-of-ores.ruby_horse_armor": "Ruby Horse Armor",
-
   "trim_material.world-of-ores.ruby": "Ruby Material",
 
   "block.world-of-ores.vibranium_planks": "Vibranium Planks",

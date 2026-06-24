@@ -19,13 +19,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_DEEPSLATE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEAD_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEAD_DEEPSLATE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_RAW_LEAD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEAD_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORPIMENT_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORPIMENT_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CROCIDOLITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDERITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDERITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_RAW_ENDERITE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COAL_SAND_ORE);
+
         BlockStateModelGenerator.BlockTexturePool VibraniumPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VIBRANIUM_PLANKS);
 
         VibraniumPlanksPool.stairs(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
@@ -48,8 +57,19 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.MALACHITE, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.URANIUM, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.CROCIDOLITE, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.ORPIMENT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ENDERITE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.LEAD_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_LEAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAD_NUGGET, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);

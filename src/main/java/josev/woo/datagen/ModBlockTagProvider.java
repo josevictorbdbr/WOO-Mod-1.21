@@ -22,18 +22,38 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         //Pickaxe Tags
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.ORPIMENT_BLOCK)
+                .add(ModBlocks.ORPIMENT_ORE)
+
                 .add(ModBlocks.URANIUM_BLOCK)
                 .add(ModBlocks.URANIUM_ORE)
+
+                .add(ModBlocks.LEAD_ORE)
+                .add(ModBlocks.LEAD_DEEPSLATE_ORE)
+                .add(ModBlocks.BLOCK_OF_RAW_LEAD)
+                .add(ModBlocks.LEAD_BLOCK)
+
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE)
+
                 .add(ModBlocks.MALACHITE_BLOCK)
                 .add(ModBlocks.MALACHITE_ORE)
+
                 .add(ModBlocks.ENDERITE_ORE)
+                .add(ModBlocks.ENDERITE_BLOCK)
+                .add(ModBlocks.BLOCK_OF_RAW_ENDERITE)
+
                 .add(ModBlocks.CROCIDOLITE_ORE);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.LEAD_BLOCK)
+                .add(ModBlocks.LEAD_DEEPSLATE_ORE)
+                .add(ModBlocks.BLOCK_OF_RAW_LEAD)
+                .add(ModBlocks.LEAD_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ORPIMENT_BLOCK)
+                .add(ModBlocks.ORPIMENT_ORE)
                 .add(ModBlocks.URANIUM_BLOCK)
                 .add(ModBlocks.URANIUM_ORE)
                 .add(ModBlocks.RUBY_BLOCK)
@@ -42,6 +62,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ENDERITE_ORE)
+                .add(ModBlocks.BLOCK_OF_RAW_ENDERITE)
+                .add(ModBlocks.ENDERITE_BLOCK)
                 .add(ModBlocks.CROCIDOLITE_ORE)
                 .add(ModBlocks.MALACHITE_BLOCK)
                 .add(ModBlocks.MALACHITE_ORE);
@@ -57,6 +79,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR)
                 .add(ModBlocks.VIBRANIUM_PLANKS_BUTTON)
                 .add(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
+
+        //Shovel Tags
+        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(ModBlocks.COAL_SAND_ORE);
 
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(ModBlocks.VIBRANIUM_PLANKS_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.VIBRANIUM_PLANKS_FENCE_GATE);

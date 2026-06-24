@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "enderite",
+  "ingredient": {
+    "item": "world-of-ores:raw_enderite"
+  },
+  "result": {
+    "id": "world-of-ores:enderite_ingot"
+  }
+}

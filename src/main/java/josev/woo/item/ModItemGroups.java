@@ -14,6 +14,7 @@ public class ModItemGroups {
     public static final ItemGroup  ITEM_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(WorldOfOres.MOD_ID, "world-of-ores"),
             FabricItemGroup.builder().icon(()-> new ItemStack(ModItems.RUBY)).displayName(Text.translatable("itemgroup.world-of-ores.itens"))
                     .entries((displayContext, entries) -> {
+
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
@@ -24,23 +25,40 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_SHOVEL);
                         entries.add(ModItems.RUBY_HOE);
                         entries.add(ModItems.RUBY_HAMMER);
-                        entries.add(ModItems.IRON_HAMMER);
                         entries.add(ModItems.RUBY_HELMET);
                         entries.add(ModItems.RUBY_CHESTPLATE);
                         entries.add(ModItems.RUBY_LEGGINGS);
                         entries.add(ModItems.RUBY_BOOTS);
                         entries.add(ModItems.RUBY_HORSE_ARMOR);
+
+                        entries.add(ModItems.LEAD_INGOT);
+                        entries.add(ModItems.LEAD_NUGGET);
+                        entries.add(ModItems.RAW_LEAD);
+                        entries.add(ModBlocks.LEAD_BLOCK);
+                        entries.add(ModBlocks.LEAD_ORE);
+                        entries.add(ModBlocks.LEAD_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.BLOCK_OF_RAW_LEAD);
+
+                        entries.add(ModItems.IRON_HAMMER);
+
+                        entries.add(ModBlocks.COAL_SAND_ORE);
+
                         entries.add(ModItems.GRAPHITE_BAR);
                         entries.add(ModItems.GRAPHITE_SWORD);
+
                         entries.add(ModItems.MALACHITE);
                         entries.add(ModBlocks.MALACHITE_BLOCK);
                         entries.add(ModBlocks.MALACHITE_ORE);
+
                         entries.add(ModItems.URANIUM);
                         entries.add(ModBlocks.URANIUM_BLOCK);
                         entries.add(ModBlocks.URANIUM_ORE);
+
                         entries.add(ModItems.ORPIMENT);
                         entries.add(ModBlocks.ORPIMENT_LAMP);
                         entries.add(ModBlocks.ORPIMENT_BLOCK);
+                        entries.add(ModBlocks.ORPIMENT_ORE);
+
                         entries.add(ModBlocks.VIBRANIUM_PLANKS);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_STAIRS);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_SLAB);
@@ -50,6 +68,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_TRAPDOOR);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_BUTTON);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.CROCIDOLITE_ORE);
+                        entries.add(ModItems.CROCIDOLITE);
+
+                        entries.add(ModBlocks.ENDERITE_ORE);
+                        entries.add(ModItems.ENDERITE_INGOT);
+                        entries.add(ModBlocks.ENDERITE_BLOCK);
+                        entries.add(ModItems.RAW_ENDERITE);
+
                     }).build());
 
     public static void registerItemGroups() {

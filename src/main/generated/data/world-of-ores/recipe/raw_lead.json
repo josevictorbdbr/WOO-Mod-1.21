@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "world-of-ores:block_of_raw_lead"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "world-of-ores:raw_lead"
+  }
+}

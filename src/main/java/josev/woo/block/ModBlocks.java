@@ -23,6 +23,18 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+    //LEAD
+    public static final Block LEAD_BLOCK = registerBlock("lead_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block BLOCK_OF_RAW_LEAD = registerBlock("block_of_raw_lead",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block LEAD_ORE = registerBlock("lead_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block LEAD_DEEPSLATE_ORE = registerBlock("lead_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
     //MALACHITE
     public static final Block MALACHITE_BLOCK = registerBlock("malachite_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
@@ -43,6 +55,9 @@ public class ModBlocks {
                     .luminance(state -> state.get(OrpimentLampBlock.CLICKED) ? 15 : 0).sounds(BlockSoundGroup.GLASS)));
     public static final Block ORPIMENT_BLOCK = registerBlock("orpiment_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block ORPIMENT_ORE = registerBlock("orpiment_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.STONE)));
 
     //VIBRANIUM PLANKS
     public static final Block VIBRANIUM_PLANKS = registerBlock("vibranium_planks",
@@ -66,6 +81,11 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(4f).requiresTool().noCollision()));
     public static final Block VIBRANIUM_PLANKS_PRESSURE_PLATE = registerBlock("vibranium_planks_pressure_plate",
             new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(4f).requiresTool()));
+
+    //SAND STUFF
+    public static final Block COAL_SAND_ORE = registerBlock("coal_sand_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.STONE)));
     //NETHER
     //CROCIDOLITE NETHER
     public static final Block CROCIDOLITE_ORE = registerBlock("crocidolite_ore",
@@ -76,6 +96,10 @@ public class ModBlocks {
     public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block BLOCK_OF_RAW_ENDERITE = registerBlock("block_of_raw_enderite",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerModBlockItem(name, block);

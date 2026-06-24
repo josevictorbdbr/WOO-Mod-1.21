@@ -12,14 +12,22 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item MALACHITE = registerItem("malachite", new Item(new Item.Settings()));
+
     public static final Item ORPIMENT = registerItem("orpiment", new Item(new Item.Settings()));
 
     public static final Item URANIUM = registerItem("uranium", new Item(new Item.Settings()));
 
+    //LEAD
+    public static final Item RAW_LEAD = registerItem("raw_lead", new Item(new Item.Settings()));
+    public static final Item LEAD_INGOT = registerItem("lead_ingot", new Item(new Item.Settings()));
+    public static final Item LEAD_NUGGET = registerItem("lead_nugget", new Item(new Item.Settings()));
+
+    //GRAPHITE
     public static final Item GRAPHITE_BAR = registerItem("graphite_bar", new Item(new Item.Settings()));
     public static final Item GRAPHITE_SWORD = registerItem("graphite_sword", new SwordItem(ToolMaterials.STONE,
             new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.STONE, 1, -2.4f))));
 
+    //RUBY
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item RUBY_SWORD = registerItem("ruby_sword", new SwordItem(ModToolMaterials.RUBY,
             new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RUBY, 3, -2.4f))));
@@ -33,10 +41,6 @@ public class ModItems {
             new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.RUBY, -3, -0f))));
     public static final Item RUBY_HAMMER = registerItem("ruby_hammer", new HammerItem(ModToolMaterials.RUBY,
             new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RUBY, 7, -3.4f))));
-
-    public static final Item IRON_HAMMER = registerItem("iron_hammer", new HammerItem(ToolMaterials.IRON,
-            new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.IRON, 6, -3.4f))));
-
     public static final Item RUBY_HELMET = registerItem("ruby_helmet", new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL,
             ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(33))));
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate", new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL,
@@ -45,9 +49,19 @@ public class ModItems {
             ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(33))));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots", new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL,
             ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(33))));
-
     public static final Item RUBY_HORSE_ARMOR = registerItem("ruby_horse_armor", new AnimalArmorItem(
             ModArmorMaterials.RUBY_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
+
+    public static final Item IRON_HAMMER = registerItem("iron_hammer", new HammerItem(ToolMaterials.IRON,
+            new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.IRON, 6, -3.4f))));
+
+    //ENDERITE
+    public static final Item ENDERITE_INGOT = registerItem("enderite_ingot", new Item(new Item.Settings()));
+    public static final Item RAW_ENDERITE = registerItem("raw_enderite", new Item(new Item.Settings()));
+
+    //CROCIDOLITE
+    public static final Item CROCIDOLITE = registerItem("crocidolite", new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WorldOfOres.MOD_ID, name), item);

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "lead",
+  "ingredient": {
+    "item": "world-of-ores:raw_lead"
+  },
+  "result": {
+    "id": "world-of-ores:lead_ingot"
+  }
+}

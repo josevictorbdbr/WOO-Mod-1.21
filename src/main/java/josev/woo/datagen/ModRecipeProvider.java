@@ -112,6 +112,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //ORPIMENT
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ORPIMENT, RecipeCategory.DECORATIONS, ModBlocks.ORPIMENT_BLOCK);
+        List<ItemConvertible> ORPIMENT_SMELTABLE = List.of(Items.COAL, Blocks.COAL_BLOCK);
+        offerSmelting(exporter, ORPIMENT_SMELTABLE, RecipeCategory.MISC, ModItems.ORPIMENT, 0.25f, 200, "orpiment");
+        offerBlasting(exporter, ORPIMENT_SMELTABLE, RecipeCategory.MISC, ModItems.ORPIMENT, 0.25f, 100, "orpiment");
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.ORPIMENT_LAMP)
                 .pattern("OOO")
@@ -194,5 +197,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.VIBRANIUM_PLANKS)
                 .criterion(hasItem(ModBlocks.VIBRANIUM_PLANKS), conditionsFromItem(ModBlocks.VIBRANIUM_PLANKS))
                 .offerTo(exporter);
+
+        //ENDERITE
+        List<ItemConvertible> ENDERITE_SMELTABLE = List.of(ModBlocks.ENDERITE_ORE,
+                ModItems.RAW_ENDERITE);
+        offerSmelting(exporter, ENDERITE_SMELTABLE, RecipeCategory.MISC, ModItems.ENDERITE_INGOT, 0.25f, 200, "enderite");
+        offerBlasting(exporter, ENDERITE_SMELTABLE, RecipeCategory.MISC, ModItems.ENDERITE_INGOT, 0.25f, 100, "enderite");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ENDERITE_INGOT, RecipeCategory.DECORATIONS, ModBlocks.ENDERITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_ENDERITE, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_RAW_ENDERITE);
+
+        //LEAD
+        List<ItemConvertible> LEAD_SMELTABLE = List.of(ModBlocks.LEAD_ORE,
+                ModItems.RAW_LEAD, ModBlocks.LEAD_DEEPSLATE_ORE);
+        offerSmelting(exporter, LEAD_SMELTABLE, RecipeCategory.MISC, ModItems.LEAD_INGOT, 0.25f, 200, "lead");
+        offerBlasting(exporter, LEAD_SMELTABLE, RecipeCategory.MISC, ModItems.LEAD_INGOT, 0.25f, 100, "lead");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LEAD_INGOT, RecipeCategory.DECORATIONS, ModBlocks.LEAD_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_LEAD, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_RAW_LEAD);
+       // offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.LEAD_NUGGET, RecipeCategory.MISC, ModItems.LEAD_INGOT);
+
+
     }
 }
