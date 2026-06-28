@@ -100,6 +100,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> GRAPHITE_SMELTABLE = List.of(Items.COAL, Blocks.COAL_BLOCK);
         offerSmelting(exporter, GRAPHITE_SMELTABLE, RecipeCategory.MISC, ModItems.GRAPHITE_BAR, 0.25f, 200, "graphite_bar");
         offerBlasting(exporter, GRAPHITE_SMELTABLE, RecipeCategory.MISC, ModItems.GRAPHITE_BAR, 0.25f, 100, "graphite_bar");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.GRAPHITE_BAR, RecipeCategory.DECORATIONS, ModBlocks.GRAPHITE_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GRAPHITE_SWORD)
                 .pattern(" G ")
@@ -214,6 +215,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LEAD_INGOT, RecipeCategory.DECORATIONS, ModBlocks.LEAD_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_LEAD, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_RAW_LEAD);
        // offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.LEAD_NUGGET, RecipeCategory.MISC, ModItems.LEAD_INGOT);
+
+        //CROCIDOLITE
+        List<ItemConvertible> CROCIDOLITE_SMELTABLE = List.of(ModBlocks.CROCIDOLITE_ORE);
+        offerSmelting(exporter, CROCIDOLITE_SMELTABLE, RecipeCategory.MISC, ModItems.CROCIDOLITE, 0.25f, 200, "crocidolite");
+        offerBlasting(exporter, CROCIDOLITE_SMELTABLE, RecipeCategory.MISC, ModItems.CROCIDOLITE, 0.25f, 100, "crocidolite");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CROCIDOLITE, RecipeCategory.DECORATIONS, ModBlocks.CROCIDOLITE_BLOCK);
 
 
     }

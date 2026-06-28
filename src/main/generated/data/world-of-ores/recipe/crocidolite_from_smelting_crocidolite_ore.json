@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "crocidolite",
+  "ingredient": {
+    "item": "world-of-ores:crocidolite_ore"
+  },
+  "result": {
+    "id": "world-of-ores:crocidolite"
+  }
+}

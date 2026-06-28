@@ -32,6 +32,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLOCK_OF_RAW_LEAD)
                 .add(ModBlocks.LEAD_BLOCK)
 
+                .add(ModBlocks.GRAPHITE_BLOCK)
+
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE)
@@ -43,13 +45,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDERITE_BLOCK)
                 .add(ModBlocks.BLOCK_OF_RAW_ENDERITE)
 
-                .add(ModBlocks.CROCIDOLITE_ORE);
+                .add(ModBlocks.CROCIDOLITE_ORE)
+                .add(ModBlocks.CROCIDOLITE_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.LEAD_BLOCK)
                 .add(ModBlocks.LEAD_DEEPSLATE_ORE)
+                .add(ModBlocks.GRAPHITE_BLOCK)
                 .add(ModBlocks.BLOCK_OF_RAW_LEAD)
                 .add(ModBlocks.LEAD_ORE);
+
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ORPIMENT_BLOCK)
@@ -65,6 +70,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLOCK_OF_RAW_ENDERITE)
                 .add(ModBlocks.ENDERITE_BLOCK)
                 .add(ModBlocks.CROCIDOLITE_ORE)
+                .add(ModBlocks.CROCIDOLITE_BLOCK)
                 .add(ModBlocks.MALACHITE_BLOCK)
                 .add(ModBlocks.MALACHITE_ORE);
 

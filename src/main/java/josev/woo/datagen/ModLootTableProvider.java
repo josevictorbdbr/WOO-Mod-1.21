@@ -47,6 +47,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
         addDrop(ModBlocks.ORPIMENT_BLOCK);
         addDropWithSilkTouch(ModBlocks.ORPIMENT_LAMP);
+        addDrop(ModBlocks.CROCIDOLITE_BLOCK);
+        addDrop(ModBlocks.GRAPHITE_BLOCK);
 
         //Ores like
         addDrop(ModBlocks.RUBY_ORE, multipleOreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY, 1, 2));

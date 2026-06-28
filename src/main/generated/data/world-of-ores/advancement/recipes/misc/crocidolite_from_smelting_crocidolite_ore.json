@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crocidolite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "world-of-ores:crocidolite_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crocidolite_from_smelting_crocidolite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crocidolite_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crocidolite_from_smelting_crocidolite_ore"
+    ]
+  }
+}

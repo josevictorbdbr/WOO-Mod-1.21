@@ -44,6 +44,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COAL_SAND_ORE);
 
                         entries.add(ModItems.GRAPHITE_BAR);
+                        entries.add(ModBlocks.GRAPHITE_BLOCK);
                         entries.add(ModItems.GRAPHITE_SWORD);
 
                         entries.add(ModItems.MALACHITE);
@@ -70,6 +71,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
 
                         entries.add(ModBlocks.CROCIDOLITE_ORE);
+                        entries.add(ModBlocks.CROCIDOLITE_BLOCK);
                         entries.add(ModItems.CROCIDOLITE);
 
                         entries.add(ModBlocks.ENDERITE_ORE);

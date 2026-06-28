@@ -19,9 +19,11 @@
   "block.world-of-ores.uranium_block": "Uranium Block",
 
   "item.world-of-ores.graphite_bar": "Graphite Bar",
+  "block.world-of-ores.graphite_block": "Graphite Block",
   "item.world-of-ores.graphite_sword": "Graphite... Sword?",
 
   "block.world-of-ores.crocidolite_ore": "Crocidolite Ore",
+  "block.world-of-ores.crocidolite_block": "Crocidolite Block",
   "item.world-of-ores.crocidolite": "Crocidolite",
 
   "block.world-of-ores.enderite_ore": "Enderite Ore",

@@ -35,6 +35,10 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+    //GRAPHITE
+    public static final Block GRAPHITE_BLOCK = registerBlock("graphite_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+
     //MALACHITE
     public static final Block MALACHITE_BLOCK = registerBlock("malachite_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
@@ -91,6 +95,9 @@ public class ModBlocks {
     public static final Block CROCIDOLITE_ORE = registerBlock("crocidolite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block CROCIDOLITE_BLOCK = registerBlock("crocidolite_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+
     //END
     //ENDERITE
     public static final Block ENDERITE_ORE = registerBlock("enderite_ore",

@@ -23,6 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEAD_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_RAW_LEAD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEAD_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAPHITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_BLOCK);
@@ -30,6 +31,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORPIMENT_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORPIMENT_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CROCIDOLITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CROCIDOLITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDERITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDERITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_RAW_ENDERITE);
