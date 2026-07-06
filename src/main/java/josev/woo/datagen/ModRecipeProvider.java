@@ -113,7 +113,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //ORPIMENT
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ORPIMENT, RecipeCategory.DECORATIONS, ModBlocks.ORPIMENT_BLOCK);
-        List<ItemConvertible> ORPIMENT_SMELTABLE = List.of(Items.COAL, Blocks.COAL_BLOCK);
+        List<ItemConvertible> ORPIMENT_SMELTABLE = List.of(ModBlocks.ORPIMENT_ORE);
         offerSmelting(exporter, ORPIMENT_SMELTABLE, RecipeCategory.MISC, ModItems.ORPIMENT, 0.25f, 200, "orpiment");
         offerBlasting(exporter, ORPIMENT_SMELTABLE, RecipeCategory.MISC, ModItems.ORPIMENT, 0.25f, 100, "orpiment");
 
@@ -125,6 +125,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', Items.REDSTONE)
                 .criterion(hasItem(ModItems.ORPIMENT), conditionsFromItem(ModItems.ORPIMENT))
                 .offerTo(exporter);
+
+        //CINNABAR
+        //offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CINNABAR, RecipeCategory.DECORATIONS, ModBlocks.CINNABAR_BLOCK);
+        //List<ItemConvertible> CINNABAR_SMELTABLE = List.of(ModBlocks.CINNABAR_ORE);
+        //offerSmelting(exporter, CINNABAR_SMELTABLE, RecipeCategory.MISC, ModItems.CINNABAR, 0.25f, 200, "cinnabar");
+        //offerBlasting(exporter, CINNABAR_SMELTABLE, RecipeCategory.MISC, ModItems.CINNABAR, 0.25f, 100, "cinnabar");
 
         //MALACHITE
         List<ItemConvertible> MALACHITE_SMELTABLE = List.of(ModBlocks.MALACHITE_ORE);
@@ -215,6 +221,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LEAD_INGOT, RecipeCategory.DECORATIONS, ModBlocks.LEAD_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_LEAD, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_RAW_LEAD);
        // offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.LEAD_NUGGET, RecipeCategory.MISC, ModItems.LEAD_INGOT);
+
+        //TIN
+        List<ItemConvertible> TIN_SMELTABLE = List.of(ModBlocks.TIN_ORE, ModItems.RAW_TIN);
+        offerSmelting(exporter, TIN_SMELTABLE, RecipeCategory.MISC, ModItems.TIN_INGOT, 0.25f, 200, "tin");
+        offerBlasting(exporter, TIN_SMELTABLE, RecipeCategory.MISC, ModItems.TIN_INGOT, 0.25f, 100, "tin");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TIN_INGOT, RecipeCategory.DECORATIONS, ModBlocks.TIN_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_TIN, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_RAW_TIN);
 
         //CROCIDOLITE
         List<ItemConvertible> CROCIDOLITE_SMELTABLE = List.of(ModBlocks.CROCIDOLITE_ORE);

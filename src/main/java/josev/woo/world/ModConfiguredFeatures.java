@@ -35,7 +35,8 @@ public class ModConfiguredFeatures {
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
         RuleTest netherReplaceables = new TagMatchRuleTest(BlockTags.BASE_STONE_NETHER);
         RuleTest soulSandReplaceables = new TagMatchRuleTest(BlockTags.SOUL_SPEED_BLOCKS);
-        RuleTest sandReplaceables = new TagMatchRuleTest(BlockTags.SAND);
+        RuleTest sandReplaceables = new BlockMatchRuleTest(Blocks.SAND);
+        RuleTest sandRedReplaceables = new BlockMatchRuleTest(Blocks.RED_SAND);
         RuleTest endReplaceables = new BlockMatchRuleTest(Blocks.END_STONE);
 
 
@@ -48,7 +49,8 @@ public class ModConfiguredFeatures {
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.LEAD_DEEPSLATE_ORE.getDefaultState()));
 
         List<OreFeatureConfig.Target> desertSandCoalOres =
-                List.of(OreFeatureConfig.createTarget(sandReplaceables, ModBlocks.COAL_SAND_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(sandReplaceables, ModBlocks.COAL_SAND_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(sandRedReplaceables, ModBlocks.COAL_SAND_ORE_RED.getDefaultState()));
 
         List<OreFeatureConfig.Target> overworldMalachiteOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.MALACHITE_ORE.getDefaultState()));

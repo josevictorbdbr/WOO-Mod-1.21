@@ -33,6 +33,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.URANIUM_BLOCK);
         addDrop(ModBlocks.LEAD_BLOCK);
         addDrop(ModBlocks.BLOCK_OF_RAW_LEAD);
+        addDrop(ModBlocks.TIN_BLOCK);
+        addDrop(ModBlocks.BLOCK_OF_RAW_TIN);
         addDrop(ModBlocks.ENDERITE_BLOCK);
         addDrop(ModBlocks.BLOCK_OF_RAW_ENDERITE);
         addDrop(ModBlocks.MALACHITE_BLOCK);
@@ -47,6 +49,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.VIBRANIUM_PLANKS_PRESSURE_PLATE);
         addDrop(ModBlocks.ORPIMENT_BLOCK);
         addDropWithSilkTouch(ModBlocks.ORPIMENT_LAMP);
+        addDrop(ModBlocks.CINNABAR_BLOCK);
         addDrop(ModBlocks.CROCIDOLITE_BLOCK);
         addDrop(ModBlocks.GRAPHITE_BLOCK);
 
@@ -58,8 +61,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CROCIDOLITE_ORE, multipleOreDrops(ModBlocks.CROCIDOLITE_ORE, ModItems.CROCIDOLITE, 1, 2));
         addDrop(ModBlocks.ENDERITE_ORE, multipleOreDrops(ModBlocks.ENDERITE_ORE, ModItems.RAW_ENDERITE, 1, 1));
         addDrop(ModBlocks.LEAD_ORE, multipleOreDrops(ModBlocks.LEAD_ORE, ModItems.RAW_LEAD, 1, 1));
+        addDrop(ModBlocks.TIN_ORE, multipleOreDrops(ModBlocks.TIN_ORE, ModItems.RAW_LEAD, 1, 2));
         addDrop(ModBlocks.ORPIMENT_ORE, multipleOreDrops(ModBlocks.ORPIMENT_ORE, ModItems.ORPIMENT, 2, 3));
-        addDrop(ModBlocks.COAL_SAND_ORE, multipleOreDrops(ModBlocks.COAL_SAND_ORE, Items.COAL, 1, 2));
+        addDrop(ModBlocks.CINNABAR_ORE, multipleOreDrops(ModBlocks.CINNABAR_ORE, ModItems.ORPIMENT, 2, 3));
+        addDrop(ModBlocks.COAL_SAND_ORE, multipleOreDrops(ModBlocks.COAL_SAND_ORE, Items.COAL, 2, 3));
+        addDrop(ModBlocks.COAL_SAND_ORE_RED, multipleOreDrops(ModBlocks.COAL_SAND_ORE_RED, Items.COAL, 3, 5));
 
 
     }

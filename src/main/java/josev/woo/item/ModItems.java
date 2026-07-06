@@ -22,6 +22,10 @@ public class ModItems {
     public static final Item LEAD_INGOT = registerItem("lead_ingot", new Item(new Item.Settings()));
     public static final Item LEAD_NUGGET = registerItem("lead_nugget", new Item(new Item.Settings()));
 
+    //TIN
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
+    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
+
     //GRAPHITE
     public static final Item GRAPHITE_BAR = registerItem("graphite_bar", new Item(new Item.Settings()));
     public static final Item GRAPHITE_SWORD = registerItem("graphite_sword", new SwordItem(ToolMaterials.STONE,

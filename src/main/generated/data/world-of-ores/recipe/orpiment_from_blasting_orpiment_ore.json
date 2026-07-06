@@ -5,7 +5,7 @@
   "experience": 0.25,
   "group": "orpiment",
   "ingredient": {
-    "item": "minecraft:coal"
+    "item": "world-of-ores:orpiment_ore"
   },
   "result": {
     "id": "world-of-ores:orpiment"

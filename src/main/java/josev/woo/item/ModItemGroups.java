@@ -39,9 +39,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LEAD_DEEPSLATE_ORE);
                         entries.add(ModBlocks.BLOCK_OF_RAW_LEAD);
 
+                        entries.add(ModItems.TIN_INGOT);
+                        entries.add(ModItems.RAW_TIN);
+                        entries.add(ModBlocks.TIN_BLOCK);
+                        entries.add(ModBlocks.TIN_ORE);
+                        entries.add(ModBlocks.BLOCK_OF_RAW_TIN);
+
                         entries.add(ModItems.IRON_HAMMER);
 
                         entries.add(ModBlocks.COAL_SAND_ORE);
+                        entries.add(ModBlocks.COAL_SAND_ORE_RED);
 
                         entries.add(ModItems.GRAPHITE_BAR);
                         entries.add(ModBlocks.GRAPHITE_BLOCK);
@@ -59,6 +66,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ORPIMENT_LAMP);
                         entries.add(ModBlocks.ORPIMENT_BLOCK);
                         entries.add(ModBlocks.ORPIMENT_ORE);
+
+                        entries.add(ModBlocks.CINNABAR_BLOCK);
+                        entries.add(ModBlocks.CINNABAR_ORE);
 
                         entries.add(ModBlocks.VIBRANIUM_PLANKS);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_STAIRS);

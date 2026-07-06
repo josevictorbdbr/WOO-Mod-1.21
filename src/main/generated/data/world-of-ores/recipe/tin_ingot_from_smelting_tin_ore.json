@@ -3,11 +3,11 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.25,
-  "group": "orpiment",
+  "group": "tin",
   "ingredient": {
-    "item": "minecraft:coal"
+    "item": "world-of-ores:tin_ore"
   },
   "result": {
-    "id": "world-of-ores:orpiment"
+    "id": "world-of-ores:tin_ingot"
   }
 }

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_coal": {
+    "has_raw_tin": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:coal"
+            "items": "world-of-ores:raw_tin"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:orpiment_from_smelting_coal"
+        "recipe": "minecraft:block_of_raw_tin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_coal"
+      "has_raw_tin"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:orpiment_from_smelting_coal"
+      "minecraft:block_of_raw_tin"
     ]
   }
 }

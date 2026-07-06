@@ -19,23 +19,39 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_DEEPSLATE_ORE);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEAD_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEAD_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_RAW_LEAD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEAD_BLOCK);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_RAW_TIN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_BLOCK);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAPHITE_BLOCK);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_ORE);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_ORE);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORPIMENT_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORPIMENT_ORE);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CINNABAR_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CINNABAR_ORE);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CROCIDOLITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CROCIDOLITE_BLOCK);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDERITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDERITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_RAW_ENDERITE);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COAL_SAND_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COAL_SAND_ORE_RED);
 
         BlockStateModelGenerator.BlockTexturePool VibraniumPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VIBRANIUM_PLANKS);
 
@@ -65,6 +81,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CROCIDOLITE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ORPIMENT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ENDERITE, Models.GENERATED);

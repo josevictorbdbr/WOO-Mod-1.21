@@ -1,16 +1,16 @@
-// 1.21	2026-06-28T16:58:45.3145668	World of Ores/
+// 1.21	2026-07-06T17:27:00.5626622	World of Ores/
 72b10e7edb484c75ca9c01c7f62d666fc6a702b9 data\world-of-ores\worldgen\placed_feature\malachite_ore_placed.json
 336f3438a901b16aec3120dc48094d55b4a6681c data\world-of-ores\worldgen\configured_feature\enderite_ore.json
 953978b702403464250443eea0c4b7297f40c463 data\world-of-ores\worldgen\configured_feature\ruby_ore.json
 c6390cca0a8d09108957b88148ac4a334a878d39 data\world-of-ores\worldgen\configured_feature\orpiment_ore.json
 a10f098d4e45cee0ffd8d01106dfe74bf40187fa data\world-of-ores\worldgen\configured_feature\malachite_ore.json
-9d6d5fcee7120684f0f3b9301039e7c4c8567440 data\world-of-ores\worldgen\placed_feature\sand_coal_placed.json
+a73dbfdaf358f74a796017418e016fb5cea38c5c data\world-of-ores\worldgen\placed_feature\sand_coal_placed.json
 c8b5306b8c338216099b1f6f0c9ae73b321b0957 data\world-of-ores\worldgen\configured_feature\crocidolite_ore.json
 4d2f87fac7c207d0b33d9baa6d45c89314fb3fc6 data\world-of-ores\worldgen\configured_feature\lead_ore.json
 bcedfc4a0694cdb7b9b883277a4e55694d585b44 data\world-of-ores\trim_material\ruby.json
 bb0d04750edb5c0ff900fd8ebd281294b522c8db data\world-of-ores\worldgen\placed_feature\ruby_ore_placed.json
+537a16ab0bd376dfef18ba75b383b5ccc2f8f2ad data\world-of-ores\worldgen\placed_feature\orpiment_ore_placed.json
+89efd79ea2b5ea0ae11ad51ab729bbc674b8a7fe data\world-of-ores\worldgen\placed_feature\nether_crocidolite_ore_placed.json
 32b0364d33ee3c1f91ac590fd712bb623ae5cf22 data\world-of-ores\worldgen\placed_feature\lead_ore_placed.json
-990f7b6a2338b1f25a2be4fca32b3a5aa6e09a8a data\world-of-ores\worldgen\placed_feature\nether_crocidolite_ore_placed.json
-b00af3b94a1de54f76e82e1c4f708555bbac4128 data\world-of-ores\worldgen\placed_feature\orpiment_ore_placed.json
 7e60f079b982697f197d47e0d0cf41182c4e988f data\world-of-ores\worldgen\configured_feature\coal_sand_ore.json
-9d14901a7257263bfc156729ed6377c26a6ed01e data\world-of-ores\worldgen\placed_feature\end_enderite_ore_placed.json
+735c371df2b033599026fbaedc78d99da39d7b11 data\world-of-ores\worldgen\placed_feature\end_enderite_ore_placed.json

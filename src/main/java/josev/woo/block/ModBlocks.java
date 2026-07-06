@@ -35,6 +35,18 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+    //TIN
+    public static final Block TIN_BLOCK = registerBlock("tin_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block BLOCK_OF_RAW_TIN = registerBlock("block_of_raw_tin",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block TIN_ORE = registerBlock("tin_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block TIN_DEEPSLATE_ORE = registerBlock("tin_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
     //GRAPHITE
     public static final Block GRAPHITE_BLOCK = registerBlock("graphite_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
@@ -61,7 +73,13 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
     public static final Block ORPIMENT_ORE = registerBlock("orpiment_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
-                    requiresTool().sounds(BlockSoundGroup.STONE)));
+                    requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    //CINNABAR
+    public static final Block CINNABAR_BLOCK = registerBlock("cinnabar_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block CINNABAR_ORE = registerBlock("cinnabar_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     //VIBRANIUM PLANKS
     public static final Block VIBRANIUM_PLANKS = registerBlock("vibranium_planks",
@@ -89,7 +107,10 @@ public class ModBlocks {
     //SAND STUFF
     public static final Block COAL_SAND_ORE = registerBlock("coal_sand_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
-                    requiresTool().sounds(BlockSoundGroup.STONE)));
+                    requiresTool().sounds(BlockSoundGroup.SUSPICIOUS_SAND)));
+    public static final Block COAL_SAND_ORE_RED = registerBlock("coal_sand_ore_red",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
+                    requiresTool().sounds(BlockSoundGroup.SUSPICIOUS_SAND)));
     //NETHER
     //CROCIDOLITE NETHER
     public static final Block CROCIDOLITE_ORE = registerBlock("crocidolite_ore",

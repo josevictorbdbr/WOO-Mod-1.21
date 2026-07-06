@@ -8,11 +8,23 @@
   "block.world-of-ores.orpiment_block": "Orpiment Block",
   "block.world-of-ores.orpiment_ore": "Orpiment Deepslate Ore",
 
+  "item.world-of-ores.cinnabar": "Cinnabar",
+  "block.world-of-ores.cinnabar_block": "Cinnabar Block",
+  "block.world-of-ores.cinnabar_ore": "Cinnabar Deepslate Ore",
+
   "item.world-of-ores.lead_ingot": "Lead Ingot",
+  "item.world-of-ores.raw_lead": "Raw Lead",
   "item.world-of-ores.lead_nugget": "Lead Nugget",
   "block.world-of-ores.lead_ore": "Lead Ore",
   "block.world-of-ores.lead_block": "Lead Block",
+  "block.world-of-ores.block_of_raw_lead": "Block of Raw Lead",
   "block.world-of-ores.lead_deepslate_ore": "Lead Deepslate Ore",
+
+  "item.world-of-ores.tin_ingot": "Tin Ingot",
+  "item.world-of-ores.raw_tin": "Raw Tin",
+  "block.world-of-ores.tin_ore": "Tin Ore",
+  "block.world-of-ores.tin_block": "Tin Block",
+  "block.world-of-ores.block_of_raw_tin": "Block of Raw Tin",
 
   "item.world-of-ores.uranium": "Uranium",
   "block.world-of-ores.uranium_ore": "Uranium Ore",
@@ -34,6 +46,7 @@
 
   "item.world-of-ores.iron_hammer": "Iron Hammer",
   "block.world-of-ores.coal_sand_ore": "Coal Sand Ore",
+  "block.world-of-ores.coal_sand_ore_red": "Coal Red Sand Ore",
 
   "item.world-of-ores.ruby": "Ruby",
   "block.world-of-ores.ruby_block": "Ruby Block",

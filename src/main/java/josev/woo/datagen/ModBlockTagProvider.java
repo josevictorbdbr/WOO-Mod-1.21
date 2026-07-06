@@ -24,6 +24,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORPIMENT_BLOCK)
                 .add(ModBlocks.ORPIMENT_ORE)
 
+                .add(ModBlocks.CINNABAR_BLOCK)
+                .add(ModBlocks.CINNABAR_ORE)
+
                 .add(ModBlocks.URANIUM_BLOCK)
                 .add(ModBlocks.URANIUM_ORE)
 
@@ -46,19 +49,29 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLOCK_OF_RAW_ENDERITE)
 
                 .add(ModBlocks.CROCIDOLITE_ORE)
-                .add(ModBlocks.CROCIDOLITE_BLOCK);
+                .add(ModBlocks.CROCIDOLITE_BLOCK)
+
+                .add(ModBlocks.TIN_BLOCK)
+                .add(ModBlocks.TIN_DEEPSLATE_ORE)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.BLOCK_OF_RAW_TIN);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.LEAD_BLOCK)
                 .add(ModBlocks.LEAD_DEEPSLATE_ORE)
                 .add(ModBlocks.GRAPHITE_BLOCK)
+                .add(ModBlocks.TIN_BLOCK)
+                .add(ModBlocks.TIN_DEEPSLATE_ORE)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.BLOCK_OF_RAW_TIN)
                 .add(ModBlocks.BLOCK_OF_RAW_LEAD)
                 .add(ModBlocks.LEAD_ORE);
-
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ORPIMENT_BLOCK)
                 .add(ModBlocks.ORPIMENT_ORE)
+                .add(ModBlocks.CINNABAR_BLOCK)
+                .add(ModBlocks.CINNABAR_ORE)
                 .add(ModBlocks.URANIUM_BLOCK)
                 .add(ModBlocks.URANIUM_ORE)
                 .add(ModBlocks.RUBY_BLOCK)
@@ -88,7 +101,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         //Shovel Tags
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
-                .add(ModBlocks.COAL_SAND_ORE);
+                .add(ModBlocks.COAL_SAND_ORE)
+                .add(ModBlocks.COAL_SAND_ORE_RED);
 
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(ModBlocks.VIBRANIUM_PLANKS_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.VIBRANIUM_PLANKS_FENCE_GATE);

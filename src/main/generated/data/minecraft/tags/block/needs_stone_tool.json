@@ -3,6 +3,10 @@
     "world-of-ores:lead_block",
     "world-of-ores:lead_deepslate_ore",
     "world-of-ores:graphite_block",
+    "world-of-ores:tin_block",
+    "world-of-ores:tin_deepslate_ore",
+    "world-of-ores:tin_ore",
+    "world-of-ores:block_of_raw_tin",
     "world-of-ores:block_of_raw_lead",
     "world-of-ores:lead_ore"
   ]

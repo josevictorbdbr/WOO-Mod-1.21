@@ -2,6 +2,8 @@
   "values": [
     "world-of-ores:orpiment_block",
     "world-of-ores:orpiment_ore",
+    "world-of-ores:cinnabar_block",
+    "world-of-ores:cinnabar_ore",
     "world-of-ores:uranium_block",
     "world-of-ores:uranium_ore",
     "world-of-ores:ruby_block",
