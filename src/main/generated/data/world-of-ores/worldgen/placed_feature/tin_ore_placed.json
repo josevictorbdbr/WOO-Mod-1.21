@@ -1,9 +1,9 @@
 {
-  "feature": "world-of-ores:lead_ore",
+  "feature": "world-of-ores:tin_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 5
+      "count": 8
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "absolute": 60
+          "absolute": 100
         },
         "min_inclusive": {
-          "absolute": -30
+          "absolute": 15
         }
       }
     },

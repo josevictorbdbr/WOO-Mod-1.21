@@ -127,10 +127,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         //CINNABAR
-        //offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CINNABAR, RecipeCategory.DECORATIONS, ModBlocks.CINNABAR_BLOCK);
-        //List<ItemConvertible> CINNABAR_SMELTABLE = List.of(ModBlocks.CINNABAR_ORE);
-        //offerSmelting(exporter, CINNABAR_SMELTABLE, RecipeCategory.MISC, ModItems.CINNABAR, 0.25f, 200, "cinnabar");
-        //offerBlasting(exporter, CINNABAR_SMELTABLE, RecipeCategory.MISC, ModItems.CINNABAR, 0.25f, 100, "cinnabar");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CINNABAR, RecipeCategory.DECORATIONS, ModBlocks.CINNABAR_BLOCK);
+        List<ItemConvertible> CINNABAR_SMELTABLE = List.of(ModBlocks.CINNABAR_ORE);
+        offerSmelting(exporter, CINNABAR_SMELTABLE, RecipeCategory.MISC, ModItems.CINNABAR, 0.25f, 200, "cinnabar");
+        offerBlasting(exporter, CINNABAR_SMELTABLE, RecipeCategory.MISC, ModItems.CINNABAR, 0.25f, 100, "cinnabar");
 
         //MALACHITE
         List<ItemConvertible> MALACHITE_SMELTABLE = List.of(ModBlocks.MALACHITE_ORE);

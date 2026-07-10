@@ -66,6 +66,9 @@ public class ModItems {
     //CROCIDOLITE
     public static final Item CROCIDOLITE = registerItem("crocidolite", new Item(new Item.Settings()));
 
+    //CINNABAR
+    public static final Item CINNABAR = registerItem("cinnabar", new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WorldOfOres.MOD_ID, name), item);

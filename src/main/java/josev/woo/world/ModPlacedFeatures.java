@@ -24,6 +24,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> END_ENDERITE_PLACED_KEY = registerKey("end_enderite_ore_placed");
     public static final RegistryKey<PlacedFeature> LEAD_PLACED_KEY = registerKey("lead_ore_placed");
     public static final RegistryKey<PlacedFeature> ORPIMENT_PLACED_KEY = registerKey("orpiment_ore_placed");
+    public static final RegistryKey<PlacedFeature> TIN_PLACED_KEY = registerKey("tin_ore_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -34,11 +35,15 @@ public class ModPlacedFeatures {
 
         register(context, LEAD_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LEAD_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(5,
-                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-40), YOffset.fixed(60))));
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-30), YOffset.fixed(60))));
+
+        register(context, TIN_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TIN_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(8,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(15), YOffset.fixed(100))));
 
         register(context, SAND_COAL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SAND_COAL_KEY),
                 ModOrePlacement.modifiersWithCount(5,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(45), YOffset.fixed(150))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(45), YOffset.fixed(85))));
 
         register(context, ORPIMENT_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ORPIMENT_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(3,
@@ -54,7 +59,7 @@ public class ModPlacedFeatures {
 
         register(context, END_ENDERITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ENDERITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(2,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(120))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(1), YOffset.fixed(120))));
 
     }
 

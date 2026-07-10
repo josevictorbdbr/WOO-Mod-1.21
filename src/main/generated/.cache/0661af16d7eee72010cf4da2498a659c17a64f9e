@@ -1,9 +1,10 @@
-// 1.21	2026-07-06T17:27:00.5556626	World of Ores/Recipes
+// 1.21	2026-07-09T22:17:31.3902431	World of Ores/Recipes
 fed369c6c130a2c8abef39c9417d644a28f75c9c data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_fence.json
 28696a20b44ead9879b8611277d4dd6d0d349463 data\world-of-ores\recipe\malachite_from_smelting_malachite_ore.json
 e018685136690014b8061d50c7fc43917aed12e8 data\world-of-ores\recipe\vibranium_planks_slab.json
 eaccf4e9dcfaa2132b18fcc5c2ee60f71008bd8e data\world-of-ores\recipe\lead_block.json
 a5d4882d0a7ae6f9b5e1f4395749e05ddd758102 data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_slab.json
+579b2dc48328a870ee9e7a6221c8ec033b464ba6 data\world-of-ores\advancement\recipes\misc\cinnabar_from_blasting_cinnabar_ore.json
 ab67bcb8687d9d138bf86fb1945b45c83cc4bf9e data\world-of-ores\recipe\raw_enderite.json
 0d2838961c7fec5fdb43058a339272d184d34cf5 data\world-of-ores\recipe\graphite_bar_from_smelting_coal_block.json
 798166d3480696c9b15ca8564b23afc365a9544e data\world-of-ores\recipe\vibranium_planks_pressure_plate.json
@@ -31,6 +32,7 @@ fcba0d756fd32abf92474fa8480167b1ef3472bf data\world-of-ores\advancement\recipes\
 a2360d10ac022f5898c0b8aef8958991f5340f65 data\world-of-ores\recipe\block_of_raw_enderite.json
 107982327c5958b622a0dc9af4909438daa0e4fd data\world-of-ores\advancement\recipes\misc\uranium_from_blasting_uranium_ore.json
 30e26ebd8b3b9e9a1658ddc549a4ab92c93a931d data\world-of-ores\recipe\lead_ingot_from_blasting_lead_deepslate_ore.json
+823e9a42a21143b7a5a4ba2dc167527cb70b59da data\world-of-ores\recipe\cinnabar_from_smelting_cinnabar_ore.json
 9970c15f757244b8c9763173d41e3a4dfa53a8b5 data\world-of-ores\advancement\recipes\decorations\block_of_raw_tin.json
 93797f1b502cde960a08a33f7e8774ac607755f1 data\world-of-ores\advancement\recipes\misc\crocidolite_from_smelting_crocidolite_ore.json
 8c3dc96cdfec509b206d71528dff0c7d2e940901 data\world-of-ores\recipe\orpiment_lamp.json
@@ -62,6 +64,7 @@ f6373f0216776b2ef6ee04c99c48455a85df7baa data\world-of-ores\recipe\malachite_fro
 45fe59725b7efc8f58c3df9c8273fc26b195d4d0 data\world-of-ores\recipe\enderite_ingot.json
 30bbae8c2095f75f47c7fd197f186a8855de14d9 data\world-of-ores\recipe\lead_ingot_from_smelting_raw_lead.json
 aac1748f497d8d5f46e5e5f181079cb55da45850 data\world-of-ores\recipe\graphite_sword.json
+8e91f096e96059488c4e98f524c099f8790a42d0 data\world-of-ores\advancement\recipes\misc\cinnabar_from_smelting_cinnabar_ore.json
 2964f7f1605ea05d1cbad4a5f9af41bcef188891 data\world-of-ores\recipe\vibranium_planks_trapdoor.json
 6d5c4f41087b1c31a6e8902edb8d0078b309657a data\world-of-ores\advancement\recipes\misc\ruby_from_smelting_ruby_deepslate_ore.json
 68c97a2d0fd6cb6a6531a64585386953136c1549 data\world-of-ores\recipe\lead_ingot_from_smelting_lead_deepslate_ore.json
@@ -73,6 +76,7 @@ d8952332ee2f06b4f7b9a5731f25ff0ae9d80c08 data\world-of-ores\recipe\graphite_bar_
 cb45e7121242a48b067af826e7e44a62030cbed1 data\world-of-ores\advancement\recipes\building_blocks\lead_ingot.json
 6ef6b0e0b43f7f1ed08933101fd1ecedf0421420 data\world-of-ores\recipe\tin_ingot_from_blasting_raw_tin.json
 9a2eba4e1965fc1b55b11e39a23f3663b3a27ebb data\world-of-ores\advancement\recipes\tools\ruby_hoe.json
+c82e52371bb488ca636136d9e6d53b3ea259fc12 data\world-of-ores\recipe\cinnabar.json
 033e0ab36efd33e572a822424b9a84d29d1c27b9 data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_door.json
 6109da00041d04ae6a07c4c75097a878641edab0 data\world-of-ores\recipe\graphite_bar.json
 e883e4220ed6b524eb782cb3848d36167e536e94 data\world-of-ores\recipe\raw_tin.json
@@ -86,6 +90,7 @@ ccdad295e25eb408c1f86901fcd3738965d13044 data\world-of-ores\recipe\block_of_raw_
 91378dd607c0832fd830db41d085793f3701c828 data\world-of-ores\advancement\recipes\building_blocks\crocidolite.json
 2d973708373689b04e97c8495949cad31d0c4e49 data\world-of-ores\advancement\recipes\building_blocks\enderite_ingot.json
 6c03ad8a280c5d58da58439712d26b654508e031 data\world-of-ores\recipe\ruby_from_smelting_ruby_deepslate_ore.json
+0bf4bc337f37dc42d52dd6c910892ab43bf8c135 data\world-of-ores\advancement\recipes\decorations\cinnabar_block.json
 fb9fbd543b5b31fed2f5c6f9fd43b3c80d8b737a data\world-of-ores\recipe\graphite_bar_from_smelting_coal.json
 d007540405f00131c9968ca91057644dc97226ec data\world-of-ores\recipe\ruby_hoe.json
 ed1c7e419fc793fc57c0756b95a9eeacacafa611 data\world-of-ores\advancement\recipes\building_blocks\vibranium_planks_pressure_plate.json
@@ -101,6 +106,7 @@ a840e37b53dc75f5d1ed3f724f2e870b647f0c94 data\world-of-ores\advancement\recipes\
 53cc98778e234373b7e520efe075e25f4747a3b1 data\world-of-ores\recipe\ruby_hammer.json
 4353150987478b8b1343986b5b3a8adef02fbd7e data\world-of-ores\advancement\recipes\misc\ruby_from_blasting_ruby_ore.json
 bec8a38d8b7e20c526c96806b41ab26d75aaa411 data\world-of-ores\recipe\orpiment.json
+3716f969ecb3dff35d2a59d074135b66fbf9d397 data\world-of-ores\recipe\cinnabar_from_blasting_cinnabar_ore.json
 497f24e3f371a161b4f4b159ae452fb66edb0dd3 data\world-of-ores\advancement\recipes\decorations\uranium_block.json
 5150360395f1621cdf3eeb0f3471ad924d49bd17 data\world-of-ores\recipe\ruby_block.json
 d32e73b6ea9b01a17bc70e82452af219e2f16073 data\world-of-ores\advancement\recipes\combat\ruby_sword.json
@@ -120,6 +126,7 @@ c932cf192ea5cd8358346a615673ec1e087d90bb data\world-of-ores\recipe\vibranium_pla
 1e2bf4afa9e276a933e69517beea616a1f63d579 data\world-of-ores\advancement\recipes\misc\enderite_ingot_from_smelting_raw_enderite.json
 bc8300a4822fc841f8b063510a9bfd7a727722ef data\world-of-ores\recipe\lead_ingot_from_smelting_lead_ore.json
 4c8f40db2ae7cc3fee7bbd73b1d2fdbd56192152 data\world-of-ores\recipe\vibranium_planks_fence.json
+46c2355746fe0e7fb71fcfc1eaa4e0f697b3de3c data\world-of-ores\recipe\cinnabar_block.json
 2b5189ca2fa12b0c68310f0b9d6ce4d6a45f3af9 data\world-of-ores\advancement\recipes\misc\tin_ingot_from_smelting_tin_ore.json
 c9cfc3d40f9c05b74081961e0048b37ccd218428 data\world-of-ores\advancement\recipes\misc\enderite_ingot_from_blasting_raw_enderite.json
 a109b723f50249a3755c5437bac2f698923ce78c data\world-of-ores\advancement\recipes\decorations\crocidolite_block.json
@@ -138,6 +145,7 @@ abdf1f580b4a3f50e062e65c9de3efb93eca97c4 data\world-of-ores\advancement\recipes\
 843bd45f137f8009b398dc2b907e7ebd1172f679 data\world-of-ores\advancement\recipes\building_blocks\ruby.json
 251244567a70330260c523547c7f55c55ea3e0b0 data\world-of-ores\recipe\enderite_ingot_from_smelting_enderite_ore.json
 2002e856e98ad2d0c393ee67218d8b2e453e4782 data\world-of-ores\recipe\lead_ingot_from_blasting_raw_lead.json
+1fdde0c84df4b4076b7f67b2bd8284a3e3c15429 data\world-of-ores\advancement\recipes\building_blocks\cinnabar.json
 731c92b5ffbaf3e00f36963e82cf76f9dda09271 data\world-of-ores\advancement\recipes\tools\ruby_shovel.json
 73c3b17a030dac085ed40cf3ad6dc1543d043bc2 data\world-of-ores\advancement\recipes\misc\graphite_bar_from_blasting_coal.json
 e9fbd1d5c021ffd55a3ab10a3f9e95aab13c304f data\world-of-ores\recipe\orpiment_from_smelting_orpiment_ore.json

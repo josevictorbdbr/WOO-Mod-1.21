@@ -9,8 +9,17 @@
           "Name": "world-of-ores:coal_sand_ore"
         },
         "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:sand"
+          "block": "minecraft:sand",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "world-of-ores:coal_sand_ore_red"
+        },
+        "target": {
+          "block": "minecraft:red_sand",
+          "predicate_type": "minecraft:block_match"
         }
       }
     ]

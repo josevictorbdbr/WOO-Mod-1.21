@@ -52,7 +52,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CROCIDOLITE_BLOCK)
 
                 .add(ModBlocks.TIN_BLOCK)
-                .add(ModBlocks.TIN_DEEPSLATE_ORE)
                 .add(ModBlocks.TIN_ORE)
                 .add(ModBlocks.BLOCK_OF_RAW_TIN);
 
@@ -61,7 +60,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LEAD_DEEPSLATE_ORE)
                 .add(ModBlocks.GRAPHITE_BLOCK)
                 .add(ModBlocks.TIN_BLOCK)
-                .add(ModBlocks.TIN_DEEPSLATE_ORE)
                 .add(ModBlocks.TIN_ORE)
                 .add(ModBlocks.BLOCK_OF_RAW_TIN)
                 .add(ModBlocks.BLOCK_OF_RAW_LEAD)

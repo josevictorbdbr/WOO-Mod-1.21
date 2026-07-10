@@ -43,9 +43,6 @@ public class ModBlocks {
     public static final Block TIN_ORE = registerBlock("tin_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.STONE)));
-    public static final Block TIN_DEEPSLATE_ORE = registerBlock("tin_deepslate_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(4f).
-                    requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     //GRAPHITE
     public static final Block GRAPHITE_BLOCK = registerBlock("graphite_block",

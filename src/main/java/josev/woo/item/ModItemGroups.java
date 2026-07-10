@@ -69,6 +69,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.CINNABAR_BLOCK);
                         entries.add(ModBlocks.CINNABAR_ORE);
+                        entries.add(ModItems.CINNABAR);
 
                         entries.add(ModBlocks.VIBRANIUM_PLANKS);
                         entries.add(ModBlocks.VIBRANIUM_PLANKS_STAIRS);

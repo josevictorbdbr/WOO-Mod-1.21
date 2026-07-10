@@ -27,6 +27,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> ENDERITE_ORE_KEY = registerKey("enderite_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> LEAD_ORE_KEY = registerKey("lead_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> ORPIMENT_ORE_KEY = registerKey("orpiment_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> TIN_ORE_KEY = registerKey("tin_ore");
 
 
 
@@ -64,6 +65,9 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> endEnderiteOres =
                 List.of(OreFeatureConfig.createTarget(endReplaceables, ModBlocks.ENDERITE_ORE.getDefaultState()));
 
+        List<OreFeatureConfig.Target> overworldTinOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.TIN_ORE.getDefaultState()));
+
         register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 6));
         register(context, MALACHITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMalachiteOres, 8));
         register(context, SAND_COAL_KEY, Feature.ORE, new OreFeatureConfig(desertSandCoalOres, 3));
@@ -71,6 +75,7 @@ public class ModConfiguredFeatures {
         register(context, ENDERITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endEnderiteOres, 6));
         register(context, LEAD_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldLeadOres, 8));
         register(context, ORPIMENT_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOrpimentOres, 6));
+        register(context, TIN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTinOres, 12));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -81,6 +81,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CROCIDOLITE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ORPIMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CINNABAR, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
