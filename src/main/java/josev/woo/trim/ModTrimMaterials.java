@@ -21,9 +21,14 @@ public class ModTrimMaterials {
 
     public static final RegistryKey<ArmorTrimMaterial> RUBY = RegistryKey.of(RegistryKeys.TRIM_MATERIAL,
             Identifier.of(WorldOfOres.MOD_ID, "ruby"));
+    public static final RegistryKey<ArmorTrimMaterial> TIN = RegistryKey.of(RegistryKeys.TRIM_MATERIAL,
+            Identifier.of(WorldOfOres.MOD_ID, "tin"));
 
     public static void bootstrap(Registerable<ArmorTrimMaterial> registerable) {
         register(registerable, RUBY, Registries.ITEM.getEntry(ModItems.RUBY),
+                Style.EMPTY.withColor(TextColor.parse("#b03fe0").getOrThrow()), 0.4f);
+
+        register(registerable, TIN, Registries.ITEM.getEntry(ModItems.TIN_INGOT),
                 Style.EMPTY.withColor(TextColor.parse("#b03fe0").getOrThrow()), 0.4f);
 
     }

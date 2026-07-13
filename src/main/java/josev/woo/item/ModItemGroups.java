@@ -44,6 +44,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TIN_BLOCK);
                         entries.add(ModBlocks.TIN_ORE);
                         entries.add(ModBlocks.BLOCK_OF_RAW_TIN);
+                        entries.add(ModItems.TIN_SWORD);
+                        entries.add(ModItems.TIN_PICKAXE);
+                        entries.add(ModItems.TIN_AXE);
+                        entries.add(ModItems.TIN_SHOVEL);
+                        entries.add(ModItems.TIN_HOE);
+                        entries.add(ModItems.TIN_HELMET);
+                        entries.add(ModItems.TIN_CHESTPLATE);
+                        entries.add(ModItems.TIN_LEGGINGS);
+                        entries.add(ModItems.TIN_BOOTS);
+                        entries.add(ModItems.TIN_HORSE_ARMOR);
 
                         entries.add(ModItems.IRON_HAMMER);
 

@@ -18,13 +18,23 @@ import java.util.function.Supplier;
 public class ModArmorMaterials {
     public static final RegistryEntry<ArmorMaterial> RUBY_ARMOR_MATERIAL = registerArmorMaterial("ruby",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.HELMET, 4);
                 map.put(ArmorItem.Type.CHESTPLATE, 8);
                 map.put(ArmorItem.Type.LEGGINGS, 6);
                 map.put(ArmorItem.Type.BOOTS, 3);
-                map.put(ArmorItem.Type.BODY, 11);
+                map.put(ArmorItem.Type.BODY, 12);
             }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, ()-> Ingredient.ofItems(ModItems.RUBY),
                     List.of(new ArmorMaterial.Layer(Identifier.of(WorldOfOres.MOD_ID, "ruby"))), 2.0F, 0));
+
+    public static final RegistryEntry<ArmorMaterial> TIN_ARMOR_MATERIAL = registerArmorMaterial("tin",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.HELMET, 2);
+                map.put(ArmorItem.Type.CHESTPLATE, 4);
+                map.put(ArmorItem.Type.LEGGINGS, 5);
+                map.put(ArmorItem.Type.BOOTS, 2);
+                map.put(ArmorItem.Type.BODY, 5);
+            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, ()-> Ingredient.ofItems(ModItems.TIN_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(WorldOfOres.MOD_ID, "tin"))), 0, 0));
 
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {

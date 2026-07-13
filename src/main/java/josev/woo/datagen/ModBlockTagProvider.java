@@ -108,5 +108,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTags.Blocks.NEED_RUBY_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
+        getOrCreateTagBuilder(ModTags.Blocks.NEED_TIN_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
     }
 }

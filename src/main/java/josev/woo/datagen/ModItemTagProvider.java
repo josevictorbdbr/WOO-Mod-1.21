@@ -40,10 +40,31 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RUBY_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.TIN_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.TIN_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.TIN_AXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.TIN_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.TIN_HOE);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TIN_HELMET);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TIN_CHESTPLATE);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TIN_LEGGINGS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TIN_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.GRAPHITE_SWORD);
 
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
-                .add(ModItems.RUBY);
+                .add(ModItems.RUBY)
+                .add(ModItems.TIN_INGOT);
 
     }
 }

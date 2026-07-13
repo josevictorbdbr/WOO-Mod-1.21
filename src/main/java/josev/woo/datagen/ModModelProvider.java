@@ -83,9 +83,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ORPIMENT, Models.GENERATED);
         itemModelGenerator.register(ModItems.CINNABAR, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
-
         itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ENDERITE, Models.GENERATED);
 
@@ -108,6 +105,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_BOOTS);
         itemModelGenerator.register(ModItems.RUBY_HORSE_ARMOR, Models.GENERATED);
+
+
+        itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TIN_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TIN_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TIN_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TIN_BOOTS);
+        itemModelGenerator.register(ModItems.TIN_HORSE_ARMOR, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.GRAPHITE_BAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.GRAPHITE_SWORD, Models.HANDHELD);

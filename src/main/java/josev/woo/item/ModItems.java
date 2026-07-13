@@ -22,9 +22,6 @@ public class ModItems {
     public static final Item LEAD_INGOT = registerItem("lead_ingot", new Item(new Item.Settings()));
     public static final Item LEAD_NUGGET = registerItem("lead_nugget", new Item(new Item.Settings()));
 
-    //TIN
-    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
-    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
 
     //GRAPHITE
     public static final Item GRAPHITE_BAR = registerItem("graphite_bar", new Item(new Item.Settings()));
@@ -55,6 +52,33 @@ public class ModItems {
             ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(33))));
     public static final Item RUBY_HORSE_ARMOR = registerItem("ruby_horse_armor", new AnimalArmorItem(
             ModArmorMaterials.RUBY_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
+
+
+    //TIN
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
+    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
+
+    public static final Item TIN_SWORD = registerItem("tin_sword", new SwordItem(ModToolMaterials.TIN,
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.TIN, 3, -2.4f))));
+    public static final Item TIN_PICKAXE = registerItem("tin_pickaxe", new PickaxeItem(ModToolMaterials.TIN,
+            new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.TIN, 1, -2.8f))));
+    public static final Item TIN_AXE = registerItem("tin_axe", new AxeItem(ModToolMaterials.TIN,
+            new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.TIN, 6.0f, -3.1f))));
+    public static final Item TIN_SHOVEL = registerItem("tin_shovel", new ShovelItem(ModToolMaterials.TIN,
+            new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.TIN, 1.5f, -3.0f))));
+    public static final Item TIN_HOE = registerItem("tin_hoe", new HoeItem(ModToolMaterials.TIN,
+            new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.TIN, -1.0f, -2.0f))));
+    public static final Item TIN_HELMET = registerItem("tin_helmet", new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL,
+            ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item TIN_CHESTPLATE = registerItem("tin_chestplate", new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL,
+            ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item TIN_LEGGINGS = registerItem("tin_leggings", new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL,
+            ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item TIN_BOOTS = registerItem("tin_boots", new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL,
+            ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+    public static final Item TIN_HORSE_ARMOR = registerItem("tin_horse_armor", new AnimalArmorItem(
+            ModArmorMaterials.TIN_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
+
 
     public static final Item IRON_HAMMER = registerItem("iron_hammer", new HammerItem(ToolMaterials.IRON,
             new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.IRON, 6, -3.4f))));

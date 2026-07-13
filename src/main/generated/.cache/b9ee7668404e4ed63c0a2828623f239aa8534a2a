@@ -1,4 +1,4 @@
-// 1.21	2026-07-09T22:17:31.3982432	World of Ores/Block Loot Tables
+// 1.21	2026-07-13T10:59:16.3569957	World of Ores/Block Loot Tables
 da1e93643be25c0c6badf68e038ddbcae7dbb152 data\world-of-ores\loot_table\blocks\vibranium_planks_door.json
 5888af082354238c5fd2d9d2b48275db49c15ec4 data\world-of-ores\loot_table\blocks\graphite_block.json
 bfcb6fbdf426a398f102f8f08c4e31dec157df39 data\world-of-ores\loot_table\blocks\coal_sand_ore.json
@@ -21,14 +21,14 @@ fe335db094c4336d6ade1ed7b4bfa099fad99ff2 data\world-of-ores\loot_table\blocks\ur
 8f9ec4847417d85bec74ebca66eee89606019f00 data\world-of-ores\loot_table\blocks\lead_block.json
 0e13a1b0d0f0490ea6f09028b7e89cc0949950e1 data\world-of-ores\loot_table\blocks\ruby_deepslate_ore.json
 80ac18d0cc21b948fa2c10f7580c6bb3b328ae3b data\world-of-ores\loot_table\blocks\orpiment_block.json
-4e10c25fc0507bfaf791292193550bc8a16d9680 data\world-of-ores\loot_table\blocks\vibranium_planks_stairs.json
 ba185fe43776d1af86e0811d36096ce80bf56ad0 data\world-of-ores\loot_table\blocks\vibranium_planks_fence_gate.json
+4e10c25fc0507bfaf791292193550bc8a16d9680 data\world-of-ores\loot_table\blocks\vibranium_planks_stairs.json
 3e95411f898f30c214afa472597bb815c215718a data\world-of-ores\loot_table\blocks\orpiment_lamp.json
 7711ed7d6faaec5e2341c5d39f3ac1a11775fe05 data\world-of-ores\loot_table\blocks\vibranium_planks_button.json
 2da42c743b96cb1ffa52532ff97a1fc1635305d2 data\world-of-ores\loot_table\blocks\vibranium_planks_trapdoor.json
 b16db8c0bd57323cdea22107f3a656513ea8ddc5 data\world-of-ores\loot_table\blocks\block_of_raw_enderite.json
 c2711f2c2f500f6ee0e66e80c1ca17b392292d8d data\world-of-ores\loot_table\blocks\vibranium_planks.json
-72f321fdfc54c61cc6a6b08fc4d60e17cc713116 data\world-of-ores\loot_table\blocks\tin_ore.json
+2f8d7a43783f64e0245b5032c01f8d3372832949 data\world-of-ores\loot_table\blocks\tin_ore.json
 c3eeb6192ca94767ffaf8366916f19427fa77c6a data\world-of-ores\loot_table\blocks\crocidolite_ore.json
 840fd716601a0707158025035c9ab1005bac1e02 data\world-of-ores\loot_table\blocks\coal_sand_ore_red.json
 112dc0def7e050c50241ff2b7bd12318395baf47 data\world-of-ores\loot_table\blocks\enderite_block.json
