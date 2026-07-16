@@ -6,16 +6,16 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "world-of-ores:ruby"
+      "item": "world-of-ores:tin_ingot"
     }
   },
   "pattern": [
-    "X",
-    "#",
-    "#"
+    "XX ",
+    " # ",
+    " # "
   ],
   "result": {
     "count": 1,
-    "id": "world-of-ores:ruby_shovel"
+    "id": "world-of-ores:tin_hoe"
   }
 }

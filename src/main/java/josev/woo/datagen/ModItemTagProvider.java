@@ -16,55 +16,30 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        //KIT REGISTRY
+        registerKitTags(ModItems.RUBY_KIT);
+        registerKitTags(ModItems.TIN_KIT);
 
-        getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.RUBY_SWORD);
-        getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.RUBY_PICKAXE);
-        getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.RUBY_AXE);
-        getOrCreateTagBuilder(ItemTags.SHOVELS)
-                .add(ModItems.RUBY_SHOVEL);
-        getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.RUBY_HOE);
-        getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.RUBY_HAMMER);
+        //OTHER RANDOM TOOLS
+        getOrCreateTagBuilder(ItemTags.SWORDS).add(ModItems.GRAPHITE_SWORD);
 
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.RUBY_HELMET);
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.RUBY_CHESTPLATE);
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.RUBY_LEGGINGS);
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.RUBY_BOOTS);
+        //LEADFACTORYFUEL
+        getOrCreateTagBuilder(ModTags.Items.LEAD_FACTORY_FUEL)
+                .add(ModItems.URANIUM);
 
-        getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.TIN_SWORD);
-        getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.TIN_PICKAXE);
-        getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.TIN_AXE);
-        getOrCreateTagBuilder(ItemTags.SHOVELS)
-                .add(ModItems.TIN_SHOVEL);
-        getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.TIN_HOE);
+    }
+
+    //PUT ALL KIT TOOLS AT CORRECT TAGS
+    private void registerKitTags(ModItems.EquipmentKit kit) {
+        getOrCreateTagBuilder(ItemTags.SWORDS).add(kit.sword);
+        getOrCreateTagBuilder(ItemTags.AXES).add(kit.axe);
+        getOrCreateTagBuilder(ItemTags.SHOVELS).add(kit.shovel);
+        getOrCreateTagBuilder(ItemTags.HOES).add(kit.hoe);
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.TIN_HELMET);
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.TIN_CHESTPLATE);
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.TIN_LEGGINGS);
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.TIN_BOOTS);
-
-        getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.GRAPHITE_SWORD);
-
-        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
-                .add(ModItems.RUBY)
-                .add(ModItems.TIN_INGOT);
-
+                .add(kit.helmet)
+                .add(kit.chestplate)
+                .add(kit.leggings)
+                .add(kit.boots);
     }
 }

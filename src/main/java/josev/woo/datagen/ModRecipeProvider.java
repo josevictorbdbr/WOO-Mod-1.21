@@ -8,12 +8,8 @@ import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.recipe.ShapedRecipe;
-import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -27,7 +23,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
-
 
         //OTHER
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.IRON_HAMMER)
@@ -44,57 +39,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModBlocks.RUBY_DEEPSLATE_ORE);
         offerSmelting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY, 0.25f, 200, "ruby");
         offerBlasting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY, 0.25f, 100, "ruby");
-
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY, RecipeCategory.DECORATIONS, ModBlocks.RUBY_BLOCK);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_SWORD)
-                .pattern(" R ")
-                .pattern(" R ")
-                .pattern(" S ")
-                .input('R', ModItems.RUBY)
-                .input('S', Items.STICK)
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_PICKAXE)
-                .pattern("RRR")
-                .pattern(" S ")
-                .pattern(" S ")
-                .input('R', ModItems.RUBY)
-                .input('S', Items.STICK)
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_AXE)
-                .pattern("RR ")
-                .pattern("RS ")
-                .pattern(" S ")
-                .input('R', ModItems.RUBY)
-                .input('S', Items.STICK)
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_SHOVEL)
-                .pattern(" R ")
-                .pattern(" S ")
-                .pattern(" S ")
-                .input('R', ModItems.RUBY)
-                .input('S', Items.STICK)
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_HOE)
-                .pattern("RR ")
-                .pattern(" S ")
-                .pattern(" S ")
-                .input('R', ModItems.RUBY)
-                .input('S', Items.STICK)
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter);
+        offerKitRecipes(exporter, ModItems.RUBY_KIT, ModItems.RUBY);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_HAMMER)
-                .pattern("RRR")
-                .pattern("RSR")
+                .pattern("III")
+                .pattern("ISI")
                 .pattern(" S ")
-                .input('R', ModItems.RUBY)
+                .input('I', ModItems.RUBY)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter);
+
 
         //GRAPHITE
         List<ItemConvertible> GRAPHITE_SMELTABLE = List.of(Items.COAL, Blocks.COAL_BLOCK);
@@ -220,7 +177,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(exporter, LEAD_SMELTABLE, RecipeCategory.MISC, ModItems.LEAD_INGOT, 0.25f, 100, "lead");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LEAD_INGOT, RecipeCategory.DECORATIONS, ModBlocks.LEAD_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_LEAD, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_RAW_LEAD);
-       // offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.LEAD_NUGGET, RecipeCategory.MISC, ModItems.LEAD_INGOT);
+        // offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.LEAD_NUGGET, RecipeCategory.MISC, ModItems.LEAD_INGOT);
 
         //TIN
         List<ItemConvertible> TIN_SMELTABLE = List.of(ModBlocks.TIN_ORE, ModItems.RAW_TIN);
@@ -229,12 +186,93 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TIN_INGOT, RecipeCategory.DECORATIONS, ModBlocks.TIN_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_TIN, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_RAW_TIN);
 
+        offerKitRecipes(exporter, ModItems.TIN_KIT, ModItems.TIN_INGOT);
+
         //CROCIDOLITE
         List<ItemConvertible> CROCIDOLITE_SMELTABLE = List.of(ModBlocks.CROCIDOLITE_ORE);
         offerSmelting(exporter, CROCIDOLITE_SMELTABLE, RecipeCategory.MISC, ModItems.CROCIDOLITE, 0.25f, 200, "crocidolite");
         offerBlasting(exporter, CROCIDOLITE_SMELTABLE, RecipeCategory.MISC, ModItems.CROCIDOLITE, 0.25f, 100, "crocidolite");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CROCIDOLITE, RecipeCategory.DECORATIONS, ModBlocks.CROCIDOLITE_BLOCK);
+    }
 
 
+
+    //-----------------------------------------------------------------------------------------------------------------------------
+    //ORE KIT RECIPE CREATOR
+    private static void offerKitRecipes(RecipeExporter exporter, ModItems.EquipmentKit kit, ItemConvertible material) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, kit.sword)
+                .pattern("X")
+                .pattern("X")
+                .pattern("#")
+                .input('X', material)
+                .input('#', Items.STICK)
+                .criterion(hasItem(material), conditionsFromItem(material))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, kit.pickaxe)
+                .pattern("XXX")
+                .pattern(" # ")
+                .pattern(" # ")
+                .input('X', material)
+                .input('#', Items.STICK)
+                .criterion(hasItem(material), conditionsFromItem(material))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, kit.axe)
+                .pattern("XX ")
+                .pattern("X# ")
+                .pattern(" # ")
+                .input('X', material)
+                .input('#', Items.STICK)
+                .criterion(hasItem(material), conditionsFromItem(material))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, kit.shovel)
+                .pattern("X")
+                .pattern("#")
+                .pattern("#")
+                .input('X', material)
+                .input('#', Items.STICK)
+                .criterion(hasItem(material), conditionsFromItem(material))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, kit.hoe)
+                .pattern("XX ")
+                .pattern(" # ")
+                .pattern(" # ")
+                .input('X', material)
+                .input('#', Items.STICK)
+                .criterion(hasItem(material), conditionsFromItem(material))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, kit.helmet)
+                .pattern("XXX")
+                .pattern("X X")
+                .input('X', material)
+                .criterion(hasItem(material), conditionsFromItem(material))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, kit.chestplate)
+                .pattern("X X")
+                .pattern("XXX")
+                .pattern("XXX")
+                .input('X', material)
+                .criterion(hasItem(material), conditionsFromItem(material))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, kit.leggings)
+                .pattern("XXX")
+                .pattern("X X")
+                .pattern("X X")
+                .input('X', material)
+                .criterion(hasItem(material), conditionsFromItem(material))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, kit.boots)
+                .pattern("X X")
+                .pattern("X X")
+                .input('X', material)
+                .criterion(hasItem(material), conditionsFromItem(material))
+                .offerTo(exporter);
     }
 }

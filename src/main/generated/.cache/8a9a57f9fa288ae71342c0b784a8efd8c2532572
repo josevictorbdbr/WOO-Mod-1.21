@@ -1,4 +1,4 @@
-// 1.21	2026-07-13T10:59:16.3539958	World of Ores/Model Definitions
+// 1.21	2026-07-16T19:00:08.0527778	World of Ores/Model Definitions
 86c0ddef6488dcd87a806696032d619ba4a2bd67 assets\world-of-ores\models\item\ruby_pickaxe.json
 b1e0af708e5e8ea9328e9f2e1a5e2625ef7f1455 assets\world-of-ores\models\block\vibranium_planks_fence_gate_wall.json
 e7233fa0b09b972722f615cb3fa847bbc02bebe8 assets\world-of-ores\models\item\tin_helmet_diamond_trim.json
@@ -60,8 +60,8 @@ d043fe5d7cdaf74655761247d2ff9cbc84f1ec74 assets\world-of-ores\models\item\ruby_h
 592b009a7efc92975c85752a090755f86f6dbce3 assets\world-of-ores\models\block\vibranium_planks_slab_top.json
 cbac162fc51a8f8e7e872073f211deeeb8fb0b00 assets\world-of-ores\models\item\ruby_leggings_copper_trim.json
 d602cebdddfdb35fcb00182da4bb4d74f4ad4211 assets\world-of-ores\models\block\vibranium_planks_stairs_outer.json
-93b7082630f918247433ac3ef43646f60a2dc97a assets\world-of-ores\models\item\tin_leggings_amethyst_trim.json
 5fa76e034681dfd2a52cb7190d797a298cbbe869 assets\world-of-ores\models\item\ruby_leggings.json
+93b7082630f918247433ac3ef43646f60a2dc97a assets\world-of-ores\models\item\tin_leggings_amethyst_trim.json
 5794a809dea9a80c68d46bc75be44fc728056a06 assets\world-of-ores\models\item\tin_pickaxe.json
 b45b0639e2bb0ef7f478032bff78215cf8234e18 assets\world-of-ores\models\item\ruby_chestplate_diamond_trim.json
 2835831a7bfff551fabe4477a111bba9038c41af assets\world-of-ores\models\item\ruby_leggings_gold_trim.json
@@ -91,8 +91,8 @@ d956e9fa08398658552e1dbf25ed4d129f415aee assets\world-of-ores\blockstates\tin_bl
 c57454d85030acd1b762a4771d4a3204f9e302f5 assets\world-of-ores\blockstates\crocidolite_ore.json
 0c5ef6dcd88121808111b53c8490670eec861c12 assets\world-of-ores\models\item\tin_helmet_copper_trim.json
 8b662249ed44fa5245e742493a8e80568b60fbe8 assets\world-of-ores\models\item\lead_ore.json
-c911d10a8c1c73db3bdb70c2b704dc16b5aefb2d assets\world-of-ores\models\item\vibranium_planks.json
 b3587c64c421e3b5e97dcd2a544974ed881af898 assets\world-of-ores\models\item\tin_leggings_copper_trim.json
+c911d10a8c1c73db3bdb70c2b704dc16b5aefb2d assets\world-of-ores\models\item\vibranium_planks.json
 b5d9147fe06ca230dde6ed65380450b080e0528c assets\world-of-ores\blockstates\enderite_block.json
 7d77851f48842f5b8031acc0af9e402cb850fdfb assets\world-of-ores\models\item\tin_boots_iron_trim.json
 5ec03149fef731920a50340ead45016bffb6548f assets\world-of-ores\models\block\block_of_raw_enderite.json
@@ -176,7 +176,6 @@ dc7508eda852eb49b464ab9eaac1bbd257efe942 assets\world-of-ores\models\item\ruby_h
 2c491326d57cd10fa5fab5c87b9d8a2b6090dacb assets\world-of-ores\models\block\lead_ore.json
 9eac4b192dcc806799746ce4d876f20c66065507 assets\world-of-ores\models\item\malachite_block.json
 c8d4770cc7f6e7db229c6dec6193af199c922ad2 assets\world-of-ores\models\item\vibranium_planks_slab.json
-a2822db4fff1ec5c57cf761c55e2d06a2e6cb5a3 assets\world-of-ores\models\item\tin_horse_armor.json
 e89faec4db9a4e1a862f46cd039507d38b39c20b assets\world-of-ores\models\item\ruby_ore.json
 f22cbe1f355625199b0509314540951d4eb4c2f6 assets\world-of-ores\models\item\enderite_ore.json
 0a4102bc11fe295c4f4572eb0d53be0d91836fb6 assets\world-of-ores\models\block\coal_sand_ore.json
@@ -190,7 +189,6 @@ f22cbe1f355625199b0509314540951d4eb4c2f6 assets\world-of-ores\models\item\enderi
 c5d5fdaa6e48d15c51954106d35f44f600dafa84 assets\world-of-ores\models\item\tin_ore.json
 1652a33f91e3e3f3d82bc6abeed817be851e323f assets\world-of-ores\models\block\crocidolite_block.json
 126577d7ca01a984ce96f36ee7aa9c93c96fd741 assets\world-of-ores\models\item\ruby_chestplate_amethyst_trim.json
-dd44913e6a69ee0d5b154c0839dcfdf55882a5b1 assets\world-of-ores\models\item\ruby_horse_armor.json
 ff931c454e9318946d5bdd63ad14f6e93d35815b assets\world-of-ores\models\block\graphite_block.json
 3e8eb808eab84cb8d0c8c765d39d6a4dd039f453 assets\world-of-ores\models\item\block_of_raw_enderite.json
 03dd344392bbc21ea9d83cd726e8740e27e5d215 assets\world-of-ores\blockstates\cinnabar_ore.json

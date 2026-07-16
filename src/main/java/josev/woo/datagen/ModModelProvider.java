@@ -73,55 +73,41 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
         itemModelGenerator.register(ModItems.MALACHITE, Models.GENERATED);
-
-        itemModelGenerator.register(ModItems.URANIUM, Models.GENERATED);
-
-        itemModelGenerator.register(ModItems.CROCIDOLITE, Models.GENERATED);
-
-        itemModelGenerator.register(ModItems.ORPIMENT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CINNABAR, Models.GENERATED);
-
-        itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_ENDERITE, Models.GENERATED);
-
-        itemModelGenerator.register(ModItems.LEAD_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_LEAD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.LEAD_NUGGET, Models.GENERATED);
-
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.RUBY_HAMMER, Models.HANDHELD);
-
-        itemModelGenerator.register(ModItems.IRON_HAMMER, Models.HANDHELD);
-
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_BOOTS);
-        itemModelGenerator.register(ModItems.RUBY_HORSE_ARMOR, Models.GENERATED);
-
-
-        itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TIN_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TIN_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TIN_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TIN_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TIN_HOE, Models.HANDHELD);
-
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.TIN_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.TIN_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.TIN_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.TIN_BOOTS);
-        itemModelGenerator.register(ModItems.TIN_HORSE_ARMOR, Models.GENERATED);
-
+        itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORPIMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.URANIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_LEAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAD_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAD_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.GRAPHITE_BAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.GRAPHITE_SWORD, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.IRON_HAMMER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_HAMMER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ENDERITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CROCIDOLITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CINNABAR, Models.GENERATED);
+
+        //KITS REGISTRY
+        registerKitModels(itemModelGenerator, ModItems.RUBY_KIT);
+        registerKitModels(itemModelGenerator, ModItems.TIN_KIT);
+    }
+
+    //GENERATE KITS
+    private void registerKitModels(ItemModelGenerator generator, ModItems.EquipmentKit kit) {
+        generator.register(kit.sword, Models.HANDHELD);
+        generator.register(kit.pickaxe, Models.HANDHELD);
+        generator.register(kit.axe, Models.HANDHELD);
+        generator.register(kit.shovel, Models.HANDHELD);
+        generator.register(kit.hoe, Models.HANDHELD);
+
+        generator.registerArmor((ArmorItem) kit.helmet);
+        generator.registerArmor((ArmorItem) kit.chestplate);
+        generator.registerArmor((ArmorItem) kit.leggings);
+        generator.registerArmor((ArmorItem) kit.boots);
     }
 }

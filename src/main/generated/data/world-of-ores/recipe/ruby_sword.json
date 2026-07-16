@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "R": {
-      "item": "world-of-ores:ruby"
-    },
-    "S": {
+    "#": {
       "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "world-of-ores:ruby"
     }
   },
   "pattern": [
-    " R ",
-    " R ",
-    " S "
+    "X",
+    "X",
+    "#"
   ],
   "result": {
     "count": 1,
