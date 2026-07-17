@@ -29,6 +29,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_RAW_TIN);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_BLOCK);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BRONZE_BLOCK);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAPHITE_BLOCK);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_BLOCK);
@@ -77,6 +79,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BRONZE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ORPIMENT, Models.GENERATED);
         itemModelGenerator.register(ModItems.URANIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_LEAD, Models.GENERATED);
@@ -95,6 +98,7 @@ public class ModModelProvider extends FabricModelProvider {
         //KITS REGISTRY
         registerKitModels(itemModelGenerator, ModItems.RUBY_KIT);
         registerKitModels(itemModelGenerator, ModItems.TIN_KIT);
+        registerKitModels(itemModelGenerator, ModItems.BRONZE_KIT);
     }
 
     //GENERATE KITS

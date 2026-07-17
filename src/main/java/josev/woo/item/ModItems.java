@@ -40,6 +40,9 @@ public class ModItems {
     public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
 
+    //BRONZE
+    public static final Item BRONZE_INGOT = registerItem("bronze_ingot", new Item(new Item.Settings()));
+
     //OTHER
     public static final Item IRON_HAMMER = registerItem("iron_hammer", new HammerItem(ToolMaterials.IRON,
             new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.IRON, 6, -3.4f))));
@@ -80,7 +83,11 @@ public class ModItems {
             this.shovel = registerItem(name + "_shovel", new ShovelItem(toolMat,
                     new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(toolMat, 1.5F, -3.0F))));
             this.hoe = registerItem(name + "_hoe", new HoeItem(toolMat,
-                    new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(toolMat, 0.0F, -3.0F))));
+                    new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(
+                            toolMat,
+                            -toolMat.getAttackDamage(),
+                            0.0F
+                    ))));
 
             this.helmet = registerItem(name + "_helmet", new ArmorItem(armorMat, ArmorItem.Type.HELMET,
                     new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(armorDurabilityMultiplier))));
@@ -92,7 +99,6 @@ public class ModItems {
                     new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(armorDurabilityMultiplier))));
         }
     }
-
     //KITS
     public static final EquipmentKit RUBY_KIT = new EquipmentKit(
             "ruby",
@@ -106,8 +112,16 @@ public class ModItems {
             "tin",
             ModToolMaterials.TIN,
             ModArmorMaterials.TIN_ARMOR_MATERIAL,
-            1.0f,
+            2.0f,
             15
+    );
+
+    public static final EquipmentKit BRONZE_KIT = new EquipmentKit(
+            "bronze",
+            ModToolMaterials.BRONZE,
+            ModArmorMaterials.BRONZE_ARMOR_MATERIAL,
+            3.0f,
+            20
     );
 
     private static Item registerItem(String name, Item item) {

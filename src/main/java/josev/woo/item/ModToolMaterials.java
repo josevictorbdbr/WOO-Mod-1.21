@@ -13,8 +13,11 @@ public enum ModToolMaterials implements ToolMaterial {
     RUBY(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL, 1110, 8.0F, 3.0F, 20,
             () -> Ingredient.ofItems(ModItems.RUBY)),
 
-    TIN(ModTags.Blocks.INCORRECT_FOR_TIN_TOOL, 325, 5.0F, 1.0F, 12,
-            () -> Ingredient.ofItems(ModItems.TIN_INGOT));
+    TIN(ModTags.Blocks.INCORRECT_FOR_TIN_TOOL, 325, 5.0F, 2.0F, 12,
+            () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
+
+    BRONZE(ModTags.Blocks.INCORRECT_FOR_BRONZE_TOOL, 612, 7.0F, 2.0F, 23,
+            () -> Ingredient.ofItems(ModItems.BRONZE_INGOT));
 
 
     private final TagKey<Block> inverseTag;

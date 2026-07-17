@@ -110,6 +110,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(ModTags.Blocks.NEED_TIN_TOOL)
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEED_BRONZE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
 
     }
 }

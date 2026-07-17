@@ -34,6 +34,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LEAD_BLOCK);
         addDrop(ModBlocks.BLOCK_OF_RAW_LEAD);
         addDrop(ModBlocks.TIN_BLOCK);
+        addDrop(ModBlocks.BRONZE_BLOCK);
         addDrop(ModBlocks.BLOCK_OF_RAW_TIN);
         addDrop(ModBlocks.ENDERITE_BLOCK);
         addDrop(ModBlocks.BLOCK_OF_RAW_ENDERITE);

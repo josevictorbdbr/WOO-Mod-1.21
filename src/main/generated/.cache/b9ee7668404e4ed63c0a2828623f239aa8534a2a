@@ -1,4 +1,4 @@
-// 1.21	2026-07-16T19:00:08.0557783	World of Ores/Block Loot Tables
+// 1.21	2026-07-17T16:22:35.9656545	World of Ores/Block Loot Tables
 da1e93643be25c0c6badf68e038ddbcae7dbb152 data\world-of-ores\loot_table\blocks\vibranium_planks_door.json
 5888af082354238c5fd2d9d2b48275db49c15ec4 data\world-of-ores\loot_table\blocks\graphite_block.json
 bfcb6fbdf426a398f102f8f08c4e31dec157df39 data\world-of-ores\loot_table\blocks\coal_sand_ore.json
@@ -7,6 +7,7 @@ bfcb6fbdf426a398f102f8f08c4e31dec157df39 data\world-of-ores\loot_table\blocks\co
 53da9160ac496712f4701bc297a17f5c1214f777 data\world-of-ores\loot_table\blocks\enderite_ore.json
 a9f0a6610018389315177ad122d2a7e03d04b38f data\world-of-ores\loot_table\blocks\orpiment_ore.json
 6c76a232fa013b7d8e6eaecb6da3f6835a541143 data\world-of-ores\loot_table\blocks\block_of_raw_tin.json
+1f7a37e279ee3e636d5dec0a3ff230fe0f442f97 data\world-of-ores\loot_table\blocks\bronze_block.json
 fb6cf423196c4d9f2b292df23765c69b4fc08600 data\world-of-ores\loot_table\blocks\malachite_ore.json
 c2f98f121f006587e56a8c65a639a11d641bcfe3 data\world-of-ores\loot_table\blocks\vibranium_planks_fence.json
 0f69f7e0112bbbb03d0da0457998f42f2e6d75ad data\world-of-ores\loot_table\blocks\cinnabar_ore.json

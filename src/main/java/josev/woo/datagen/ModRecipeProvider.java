@@ -188,6 +188,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerKitRecipes(exporter, ModItems.TIN_KIT, ModItems.TIN_INGOT);
 
+        //BRONZE
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BRONZE_INGOT, RecipeCategory.DECORATIONS, ModBlocks.BRONZE_BLOCK);
+        offerKitRecipes(exporter, ModItems.BRONZE_KIT, ModItems.BRONZE_INGOT);
+
         //CROCIDOLITE
         List<ItemConvertible> CROCIDOLITE_SMELTABLE = List.of(ModBlocks.CROCIDOLITE_ORE);
         offerSmelting(exporter, CROCIDOLITE_SMELTABLE, RecipeCategory.MISC, ModItems.CROCIDOLITE, 0.25f, 200, "crocidolite");

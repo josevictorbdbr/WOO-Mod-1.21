@@ -19,6 +19,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         //KIT REGISTRY
         registerKitTags(ModItems.RUBY_KIT);
         registerKitTags(ModItems.TIN_KIT);
+        registerKitTags(ModItems.BRONZE_KIT);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.RUBY)
+                .add(ModItems.TIN_INGOT)
+                .add(ModItems.BRONZE_INGOT);
 
         //OTHER RANDOM TOOLS
         getOrCreateTagBuilder(ItemTags.SWORDS).add(ModItems.GRAPHITE_SWORD);

@@ -22,6 +22,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
                         addKitToGroup(entries, ModItems.RUBY_KIT);
 
+                        //BRONZE
+                        entries.add(ModItems.BRONZE_INGOT);
+                        entries.add(ModBlocks.BRONZE_BLOCK);
+                        addKitToGroup(entries, ModItems.BRONZE_KIT);
+
                         //MALACHITE
                         entries.add(ModItems.MALACHITE);
                         entries.add(ModBlocks.MALACHITE_BLOCK);

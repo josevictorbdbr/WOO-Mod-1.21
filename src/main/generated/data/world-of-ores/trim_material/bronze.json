@@ -1,0 +1,9 @@
+{
+  "asset_name": "bronze",
+  "description": {
+    "color": "#D9824B",
+    "translate": "trim_material.world-of-ores.bronze"
+  },
+  "ingredient": "world-of-ores:bronze_ingot",
+  "item_model_index": 0.5
+}
