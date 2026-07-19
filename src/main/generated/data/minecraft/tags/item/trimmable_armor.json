@@ -11,6 +11,10 @@
     "world-of-ores:bronze_helmet",
     "world-of-ores:bronze_chestplate",
     "world-of-ores:bronze_leggings",
-    "world-of-ores:bronze_boots"
+    "world-of-ores:bronze_boots",
+    "world-of-ores:lead_helmet",
+    "world-of-ores:lead_chestplate",
+    "world-of-ores:lead_leggings",
+    "world-of-ores:lead_boots"
   ]
 }

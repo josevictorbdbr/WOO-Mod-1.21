@@ -124,6 +124,14 @@ public class ModItems {
             20
     );
 
+    public static final EquipmentKit LEAD_KIT = new EquipmentKit(
+            "lead",
+            ModToolMaterials.LEAD,
+            ModArmorMaterials.LEAD_ARMOR_MATERIAL,
+            3.0f,
+            20
+    );
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WorldOfOres.MOD_ID, name), item);
     }

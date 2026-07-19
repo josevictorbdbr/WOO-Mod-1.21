@@ -20,10 +20,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         registerKitTags(ModItems.RUBY_KIT);
         registerKitTags(ModItems.TIN_KIT);
         registerKitTags(ModItems.BRONZE_KIT);
+        registerKitTags(ModItems.LEAD_KIT);
 
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
                 .add(ModItems.RUBY)
                 .add(ModItems.TIN_INGOT)
+                .add(ModItems.LEAD_INGOT)
                 .add(ModItems.BRONZE_INGOT);
 
         //OTHER RANDOM TOOLS

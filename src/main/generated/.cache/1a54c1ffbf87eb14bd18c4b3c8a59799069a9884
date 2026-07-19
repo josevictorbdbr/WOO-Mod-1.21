@@ -1,8 +1,8 @@
-// 1.21	2026-07-17T16:22:35.9646539	World of Ores/Tags for minecraft:item
-2a71eb6ffed2612e993eab4c9c1e6fe450d074b4 data\minecraft\tags\item\trim_materials.json
-066c03f0cd4dbb9118fa4c6f244a90b80d7a7933 data\minecraft\tags\item\axes.json
-bc9797f21df2b31a4662cf2365448743d5bd5379 data\minecraft\tags\item\trimmable_armor.json
+// 1.21	2026-07-18T23:52:43.1103449	World of Ores/Tags for minecraft:item
+ba31bd76db5e4dc6c88e7a6af9b1d39add254f97 data\minecraft\tags\item\trim_materials.json
+fc4cc53ef2b33c2b491962698c822fac5b9488cc data\minecraft\tags\item\axes.json
+15badb9c2d458da3c70da6a90597b7d3077fe23f data\minecraft\tags\item\trimmable_armor.json
 13b41e084c1038d7c5f6ee54ea26c8f5807c61b5 data\world-of-ores\tags\item\lead_factory_fuel.json
-b8b24f73487ce61792e90b356258687d34ce4054 data\minecraft\tags\item\swords.json
-b75bfdce63b17306961b041474c29ca172c2e3d6 data\minecraft\tags\item\shovels.json
-f1326191429156386a77f8e6eb0c3fe222e126f5 data\minecraft\tags\item\hoes.json
+11f8fefd3d71d10c580db46fc4fb126397465786 data\minecraft\tags\item\swords.json
+f46ce78ef6785614b3b8e89a8c1880f1de530b09 data\minecraft\tags\item\shovels.json
+a71e72ae66c150489c5d183aadd3f9590f9a98b6 data\minecraft\tags\item\hoes.json

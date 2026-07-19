@@ -1,12 +1,12 @@
-// 1.21	2026-07-17T16:22:35.966655	World of Ores/Tags for minecraft:block
+// 1.21	2026-07-18T23:52:43.1113438	World of Ores/Tags for minecraft:block
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data\world-of-ores\tags\block\needs_tin_tool.json
 debacab36c790fef28921aa60a02df3a05cf366b data\minecraft\tags\block\fence_gates.json
 2d693ab3402cfbb77b38e19ba3546965fe49077c data\minecraft\tags\block\needs_stone_tool.json
 0d19fc6e5ed8a5aabb2d33529a446acd02b8c25a data\minecraft\tags\block\mineable\pickaxe.json
 bc3125abbfdc3a42ba6066f13f130e0605b76a4c data\minecraft\tags\block\wooden_fences.json
 dfe10c9e27c3d5f117cecaebab4b0b03a85e23cd data\minecraft\tags\block\mineable\shovel.json
-a249c46329a41538f49a564e1f14338aaf1be5a0 data\world-of-ores\tags\block\needs_ruby_tool.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data\world-of-ores\tags\block\needs_bronze_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data\world-of-ores\tags\block\needs_ruby_tool.json
 6a0059797ee6ac357f1b962cc0df287c4e362ca6 data\minecraft\tags\block\needs_iron_tool.json
 cc4f66541c012df002f3a1ee5ff87170aea716c6 data\minecraft\tags\block\mineable\axe.json
 cedc8e62f5553d816b5a766ced07de5856ef7f95 data\minecraft\tags\block\needs_diamond_tool.json

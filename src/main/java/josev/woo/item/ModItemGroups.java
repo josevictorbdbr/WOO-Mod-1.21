@@ -48,6 +48,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LEAD_DEEPSLATE_ORE);
                         entries.add(ModBlocks.LEAD_BLOCK);
                         entries.add(ModBlocks.BLOCK_OF_RAW_LEAD);
+                        addKitToGroup(entries, ModItems.LEAD_KIT);
 
                         //GRAPHITE
                         entries.add(ModItems.GRAPHITE_BAR);

@@ -59,6 +59,7 @@
         "netherite_darker": "trims/color_palettes/netherite_darker",
         "ruby": "world-of-ores:trims/color_palettes/ruby",
         "bronze": "world-of-ores:trims/color_palettes/bronze",
+        "lead": "world-of-ores:trims/color_palettes/lead",
         "tin": "world-of-ores:trims/color_palettes/tin"
       }
     }

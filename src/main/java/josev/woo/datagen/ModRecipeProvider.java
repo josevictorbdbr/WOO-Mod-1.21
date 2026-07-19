@@ -178,6 +178,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LEAD_INGOT, RecipeCategory.DECORATIONS, ModBlocks.LEAD_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_LEAD, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_RAW_LEAD);
         // offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.LEAD_NUGGET, RecipeCategory.MISC, ModItems.LEAD_INGOT);
+        offerKitRecipes(exporter, ModItems.LEAD_KIT, ModItems.LEAD_INGOT);
 
         //TIN
         List<ItemConvertible> TIN_SMELTABLE = List.of(ModBlocks.TIN_ORE, ModItems.RAW_TIN);

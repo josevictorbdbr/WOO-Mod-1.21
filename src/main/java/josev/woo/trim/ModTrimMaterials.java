@@ -25,6 +25,8 @@ public class ModTrimMaterials {
             Identifier.of(WorldOfOres.MOD_ID, "tin"));
     public static final RegistryKey<ArmorTrimMaterial> BRONZE = RegistryKey.of(RegistryKeys.TRIM_MATERIAL,
             Identifier.of(WorldOfOres.MOD_ID, "bronze"));
+    public static final RegistryKey<ArmorTrimMaterial> LEAD = RegistryKey.of(RegistryKeys.TRIM_MATERIAL,
+            Identifier.of(WorldOfOres.MOD_ID, "lead"));
 
     public static void bootstrap(Registerable<ArmorTrimMaterial> registerable) {
         register(registerable, RUBY, Registries.ITEM.getEntry(ModItems.RUBY),
@@ -34,6 +36,9 @@ public class ModTrimMaterials {
                 Style.EMPTY.withColor(TextColor.parse("#f0f4f1").getOrThrow()), 0.2f);
 
         register(registerable, BRONZE, Registries.ITEM.getEntry(ModItems.BRONZE_INGOT),
+                Style.EMPTY.withColor(TextColor.parse("#d9824b").getOrThrow()), 0.5f);
+
+        register(registerable, LEAD, Registries.ITEM.getEntry(ModItems.LEAD_INGOT),
                 Style.EMPTY.withColor(TextColor.parse("#d9824b").getOrThrow()), 0.5f);
 
     }

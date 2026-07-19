@@ -99,6 +99,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerKitModels(itemModelGenerator, ModItems.RUBY_KIT);
         registerKitModels(itemModelGenerator, ModItems.TIN_KIT);
         registerKitModels(itemModelGenerator, ModItems.BRONZE_KIT);
+        registerKitModels(itemModelGenerator, ModItems.LEAD_KIT);
     }
 
     //GENERATE KITS

@@ -46,6 +46,16 @@ public class ModArmorMaterials {
             }), 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, ()-> Ingredient.ofItems(ModItems.BRONZE_INGOT),
                     List.of(new ArmorMaterial.Layer(Identifier.of(WorldOfOres.MOD_ID, "bronze"))), 0, 0));
 
+    public static final RegistryEntry<ArmorMaterial> LEAD_ARMOR_MATERIAL = registerArmorMaterial("lead",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.CHESTPLATE, 6);
+                map.put(ArmorItem.Type.LEGGINGS, 5);
+                map.put(ArmorItem.Type.BOOTS, 3);
+                map.put(ArmorItem.Type.BODY, 7);
+            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, ()-> Ingredient.ofItems(ModItems.LEAD_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(WorldOfOres.MOD_ID, "lead"))), 0, 0));
+
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(WorldOfOres.MOD_ID, name), material.get());

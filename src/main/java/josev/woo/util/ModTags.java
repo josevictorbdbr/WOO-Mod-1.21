@@ -19,6 +19,9 @@ public class ModTags {
         public static final TagKey<Block> NEED_BRONZE_TOOL = createTag("needs_bronze_tool");
         public static final TagKey<Block> INCORRECT_FOR_BRONZE_TOOL = createTag("incorrect_for_bronze_tool");
 
+        public static final TagKey<Block> NEED_LEAD_TOOL = createTag("needs_lead_tool");
+        public static final TagKey<Block> INCORRECT_FOR_LEAD_TOOL = createTag("incorrect_for_lead_tool");
+
         private static TagKey<Block> createTag(String name){
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(WorldOfOres.MOD_ID, name));
         }

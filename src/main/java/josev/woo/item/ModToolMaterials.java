@@ -17,7 +17,10 @@ public enum ModToolMaterials implements ToolMaterial {
             () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
 
     BRONZE(ModTags.Blocks.INCORRECT_FOR_BRONZE_TOOL, 612, 7.0F, 2.0F, 23,
-            () -> Ingredient.ofItems(ModItems.BRONZE_INGOT));
+            () -> Ingredient.ofItems(ModItems.BRONZE_INGOT)),
+
+    LEAD(ModTags.Blocks.INCORRECT_FOR_LEAD_TOOL, 1320, 6.0F, 2.0F, 5,
+            () -> Ingredient.ofItems(ModItems.LEAD_INGOT));
 
 
     private final TagKey<Block> inverseTag;
